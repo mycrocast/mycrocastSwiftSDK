@@ -9357,6 +9357,34 @@
         "moduleName": "MycrocastSDK"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MycrocastSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MycrocastSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MycrocastSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "MycrocastSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Optional",
         "printedName": "Optional",
@@ -9490,6 +9518,147 @@
             ],
             "usr": "s:10Foundation26DecodableWithConfigurationP",
             "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Gesture",
+            "printedName": "Gesture",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Value",
+                "printedName": "Value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Value"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI7GestureP",
+            "mangledName": "$s7SwiftUI7GestureP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TableRowContent",
+            "printedName": "TableRowContent",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "TableRowValue",
+                "printedName": "TableRowValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.TableRowValue"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "TableRowBody",
+                "printedName": "TableRowBody",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI15TableRowContentP",
+            "mangledName": "$s7SwiftUI15TableRowContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Commands",
+            "printedName": "Commands",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI8CommandsP",
+            "mangledName": "$s7SwiftUI8CommandsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ToolbarContent",
+            "printedName": "ToolbarContent",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI14ToolbarContentP",
+            "mangledName": "$s7SwiftUI14ToolbarContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomizableToolbarContent",
+            "printedName": "CustomizableToolbarContent",
+            "usr": "s:7SwiftUI26CustomizableToolbarContentP",
+            "mangledName": "$s7SwiftUI26CustomizableToolbarContentP"
           }
         ]
       }
@@ -10947,6 +11116,20 @@
       "value": "\"stopListen\""
     },
     {
+      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Timer\/AccurateTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 287,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Timer\/AccurateTimer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 576,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Rest\/Response\/Stream\/StartStreamListenResponse.swift",
       "kind": "Array",
       "offset": 1068,
@@ -12027,112 +12210,112 @@
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 132,
+      "offset": 133,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 186,
+      "offset": 187,
       "length": 15,
       "value": "\"159.69.211.32\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 248,
+      "offset": 249,
       "length": 19,
       "value": "\"push.mycrocast.de\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 306,
+      "offset": 307,
       "length": 15,
       "value": "\"159.69.211.32\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 364,
+      "offset": 365,
       "length": 18,
       "value": "\"aws.mycrocast.de\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 414,
+      "offset": 415,
       "length": 17,
       "value": "\"\/mycrocast\/rest\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 468,
+      "offset": 469,
       "length": 4,
       "value": "8080"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 513,
+      "offset": 514,
       "length": 4,
       "value": "8080"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 556,
+      "offset": 557,
       "length": 4,
       "value": "8000"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 600,
+      "offset": 601,
       "length": 22,
       "value": "\"http:\/\/159.69.211.32\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 666,
+      "offset": 667,
       "length": 27,
       "value": "\"https:\/\/live.mycrocast.de\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 937,
+      "offset": 938,
       "length": 9,
       "value": "\"http:\/\/\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 963,
+      "offset": 964,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1019,
+      "offset": 1020,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1051,
+      "offset": 1052,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1194,
+      "offset": 1195,
       "length": 3,
       "value": "\":\""
     },
@@ -13805,147 +13988,133 @@
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "BooleanLiteral",
-      "offset": 513,
+      "offset": 559,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "IntegerLiteral",
-      "offset": 550,
+      "offset": 596,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "StringLiteral",
-      "offset": 606,
+      "offset": 652,
       "length": 36,
       "value": "\"audio.buffer.locked.dispatch.queue\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "IntegerLiteral",
-      "offset": 799,
+      "offset": 845,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1194,
+      "offset": 979,
+      "length": 8,
+      "value": "19800000"
+    },
+    {
+      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1394,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1494,
+      "offset": 1694,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1726,
+      "offset": 1926,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1730,
+      "offset": 1930,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1954,
+      "offset": 2154,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2516,
+      "offset": 2732,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
-      "kind": "FloatLiteral",
-      "offset": 2880,
+      "kind": "BooleanLiteral",
+      "offset": 3063,
       "length": 4,
-      "value": "19.5"
+      "value": "true"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
-      "kind": "FloatLiteral",
-      "offset": 2888,
-      "length": 6,
-      "value": "1000.0"
+      "kind": "IntegerLiteral",
+      "offset": 3098,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "BooleanLiteral",
-      "offset": 2906,
+      "offset": 3432,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3261,
+      "offset": 3498,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3296,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3630,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3696,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3731,
+      "offset": 3533,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3866,
+      "offset": 3706,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3893,
+      "offset": 3733,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Buffer\/AudioBuffer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3925,
+      "offset": 3765,
       "length": 4,
       "value": "true"
     },
@@ -14148,161 +14317,147 @@
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "BooleanLiteral",
-      "offset": 492,
+      "offset": 537,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "BooleanLiteral",
-      "offset": 531,
+      "offset": 576,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "Array",
-      "offset": 558,
+      "offset": 603,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "IntegerLiteral",
-      "offset": 592,
+      "offset": 637,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "IntegerLiteral",
-      "offset": 947,
+      "offset": 704,
+      "length": 8,
+      "value": "19800000"
+    },
+    {
+      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1152,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "IntegerLiteral",
-      "offset": 971,
+      "offset": 1176,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "BooleanLiteral",
-      "offset": 1636,
+      "offset": 1841,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "IntegerLiteral",
-      "offset": 1669,
+      "offset": 1874,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "IntegerLiteral",
-      "offset": 1843,
+      "offset": 2048,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "BooleanLiteral",
-      "offset": 1876,
+      "offset": 2081,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "IntegerLiteral",
-      "offset": 1926,
+      "offset": 2131,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "IntegerLiteral",
-      "offset": 1997,
+      "offset": 2202,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "BooleanLiteral",
-      "offset": 2300,
+      "offset": 2505,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "IntegerLiteral",
-      "offset": 2808,
+      "offset": 3013,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "BooleanLiteral",
-      "offset": 2845,
+      "offset": 3050,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "IntegerLiteral",
-      "offset": 3010,
+      "offset": 3215,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "BooleanLiteral",
-      "offset": 3431,
+      "offset": 3636,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "IntegerLiteral",
-      "offset": 3727,
+      "offset": 3932,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
-      "kind": "FloatLiteral",
-      "offset": 3982,
-      "length": 4,
-      "value": "19.5"
-    },
-    {
-      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
-      "kind": "FloatLiteral",
-      "offset": 3990,
-      "length": 6,
-      "value": "1000.0"
-    },
-    {
-      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4008,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "IntegerLiteral",
-      "offset": 4405,
+      "offset": 4666,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Delay\/DurationAudioDelay.swift",
       "kind": "BooleanLiteral",
-      "offset": 4442,
+      "offset": 4703,
       "length": 5,
       "value": "false"
     },
@@ -14515,6 +14670,48 @@
       "offset": 2300,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sbeeckmann\/Library\/Developer\/Xcode\/DerivedData\/SDK-eqbdmzpqufoqiuhflmighsxdfjfk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MycrocastSDK\/IntermediateBuildFilesPath\/MycrocastSDK.build\/Release-iphonesimulator\/MycrocastSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 6,
+      "value": "\"Like\""
+    },
+    {
+      "filePath": "\/Users\/sbeeckmann\/Library\/Developer\/Xcode\/DerivedData\/SDK-eqbdmzpqufoqiuhflmighsxdfjfk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MycrocastSDK\/IntermediateBuildFilesPath\/MycrocastSDK.build\/Release-iphonesimulator\/MycrocastSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 853,
+      "length": 10,
+      "value": "\"Listener\""
+    },
+    {
+      "filePath": "\/Users\/sbeeckmann\/Library\/Developer\/Xcode\/DerivedData\/SDK-eqbdmzpqufoqiuhflmighsxdfjfk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MycrocastSDK\/IntermediateBuildFilesPath\/MycrocastSDK.build\/Release-iphonesimulator\/MycrocastSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 981,
+      "length": 6,
+      "value": "\"Mute\""
+    },
+    {
+      "filePath": "\/Users\/sbeeckmann\/Library\/Developer\/Xcode\/DerivedData\/SDK-eqbdmzpqufoqiuhflmighsxdfjfk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MycrocastSDK\/IntermediateBuildFilesPath\/MycrocastSDK.build\/Release-iphonesimulator\/MycrocastSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1107,
+      "length": 7,
+      "value": "\"Pause\""
+    },
+    {
+      "filePath": "\/Users\/sbeeckmann\/Library\/Developer\/Xcode\/DerivedData\/SDK-eqbdmzpqufoqiuhflmighsxdfjfk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MycrocastSDK\/IntermediateBuildFilesPath\/MycrocastSDK.build\/Release-iphonesimulator\/MycrocastSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1232,
+      "length": 6,
+      "value": "\"Play\""
+    },
+    {
+      "filePath": "\/Users\/sbeeckmann\/Library\/Developer\/Xcode\/DerivedData\/SDK-eqbdmzpqufoqiuhflmighsxdfjfk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MycrocastSDK\/IntermediateBuildFilesPath\/MycrocastSDK.build\/Release-iphonesimulator\/MycrocastSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1360,
+      "length": 8,
+      "value": "\"Unmute\""
     }
   ]
 }
