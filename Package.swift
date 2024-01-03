@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/emqx/CocoaMQTT.git", exact: "2.1.3"),
-        .package(url: "https://github.com/mycrocast/MCCOpus.git", exact: "1.0.0")
+        .package(url: "https://github.com/mycrocast/MCCOpus.git", exact: "1.0.1"),
     ],
     targets: [
         .binaryTarget(name: "MycrocastSDK", 

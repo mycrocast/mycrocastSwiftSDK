@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mycrocast/MCCOpus.git",
       "state" : {
-        "revision" : "9c31aa93c986c66e739666568ba6b162afe9caf6",
-        "version" : "1.0.0"
+        "revision" : "af3fa0dcb9d7c103cdea1f1745deb4fda4f1f2af",
+        "version" : "1.0.1"
       }
     },
     {
