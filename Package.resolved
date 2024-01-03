@@ -10,6 +10,15 @@
       }
     },
     {
+      "identity" : "mccopus",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mycrocast/MCCOpus.git",
+      "state" : {
+        "revision" : "9c31aa93c986c66e739666568ba6b162afe9caf6",
+        "version" : "1.0.0"
+      }
+    },
+    {
       "identity" : "mqttcocoaasyncsocket",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/leeway1208/MqttCocoaAsyncSocket",
