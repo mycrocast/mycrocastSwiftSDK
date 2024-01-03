@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "mycrocastSDK",
-            targets: ["MycrocastSDKTarget"]),
+            targets: ["MycrocastSDK", "MCCOpus"]),
     ],
     dependencies: [
         .package(url: "https://github.com/emqx/CocoaMQTT.git", exact: "2.1.3")
