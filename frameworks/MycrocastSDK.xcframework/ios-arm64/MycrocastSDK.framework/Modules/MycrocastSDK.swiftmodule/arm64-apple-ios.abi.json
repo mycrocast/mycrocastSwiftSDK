@@ -10173,49 +10173,49 @@
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/PushMessaging\/MqttClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 3109,
+      "offset": 3135,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/PushMessaging\/MqttClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 3140,
+      "offset": 3166,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/PushMessaging\/MqttClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 3307,
+      "offset": 3333,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/PushMessaging\/MqttClient.swift",
       "kind": "StringLiteral",
-      "offset": 3392,
+      "offset": 3418,
       "length": 13,
       "value": "\"userstream\/\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/PushMessaging\/MqttClient.swift",
       "kind": "StringLiteral",
-      "offset": 3427,
+      "offset": 3453,
       "length": 21,
       "value": "\"\/playadvertisements\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/PushMessaging\/MqttClient.swift",
       "kind": "StringLiteral",
-      "offset": 3534,
+      "offset": 3560,
       "length": 13,
       "value": "\"userstream\/\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/PushMessaging\/MqttClient.swift",
       "kind": "StringLiteral",
-      "offset": 3569,
+      "offset": 3595,
       "length": 21,
       "value": "\"\/playadvertisements\""
     },
@@ -10229,21 +10229,21 @@
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/PushMessaging\/MqttClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4184,
+      "offset": 4210,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/PushMessaging\/MqttClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4212,
+      "offset": 4238,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/PushMessaging\/MqttClient.swift",
       "kind": "StringLiteral",
-      "offset": 4918,
+      "offset": 4980,
       "length": 22,
       "value": "\"failed push decoding\""
     },

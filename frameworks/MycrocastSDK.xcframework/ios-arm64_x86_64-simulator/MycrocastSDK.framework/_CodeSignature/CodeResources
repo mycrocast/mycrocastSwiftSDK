@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		d5yMKtP67i8yFUCZXHxmVrfCWnM=
+		iSFOBrdGJSTQo+s4x5l8c1HQ3EA=
 		</data>
 		<key>Makefile.am</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hM19qpRAthxZyo9HLOw8KCCC+yQ=
+		gVpXabtNrPmE5+OERYipuaeyJ0E=
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hM19qpRAthxZyo9HLOw8KCCC+yQ=
+		gVpXabtNrPmE5+OERYipuaeyJ0E=
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -201,7 +201,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cOUMs4id4syTpY5X3n0HPuVtv6yj/0rnElsna4EJzho=
+			mUpwF5xB0oiAsMzsagQN3jlMtyGDKinr8C9teqIW/+o=
 			</data>
 		</dict>
 		<key>Modules/MycrocastSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -236,7 +236,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cOUMs4id4syTpY5X3n0HPuVtv6yj/0rnElsna4EJzho=
+			mUpwF5xB0oiAsMzsagQN3jlMtyGDKinr8C9teqIW/+o=
 			</data>
 		</dict>
 		<key>Modules/MycrocastSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
