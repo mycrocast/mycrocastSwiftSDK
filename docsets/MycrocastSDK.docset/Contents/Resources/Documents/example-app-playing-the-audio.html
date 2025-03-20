@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Example App playing the audio  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a title="Example App playing the audio  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">MycrocastSDK Docs</a> (71% documented)</p>
+        <div class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">MycrocastSDK Reference</a>
+        <img id="carat" src="img/carat.png" alt=""/>
+        Example App playing the audio  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Documentation.html">Documentation</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="overview.html">Overview</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="getting-started.html">Getting started</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="connecting-to-a-live-stream.html">Connecting to a live stream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="what-is-a-livestream.html">What is a LiveStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="mycrocast---entry.html">Mycrocast - Entry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="advertisement.html">Advertisement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="how-to-chat.html">How to Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="errors.html">Errors</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Example.html">Example</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="example-app-overview.html">Example App Overview</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app--audiosession---handling-a-stream.html">Example App  AudioSession - Handling a Stream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app-playing-the-audio.html">Example App playing the audio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app-livestreamcell.html">Example App LiveStreamCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app---advertisementbanner.html">Example App - AdvertisementBanner</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app---streamerview.html">Example App - StreamerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app---chat.html">Example App - Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app-viewcontroller.html">Example App ViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Other%20Classes.html#/s:12MycrocastSDK18AudioPackageBufferC">AudioPackageBuffer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DelayTimeContainer.html">DelayTimeContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LiveScoringStream.html">LiveScoringStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LiveStream.html">LiveStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Mycrocast.html">Mycrocast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MycrocastAdvertisement.html">MycrocastAdvertisement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MycrocastAssetProvider.html">MycrocastAssetProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MycrocastError.html">MycrocastError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Streamer.html">Streamer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/ChatStatus.html">ChatStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ErrorType.html">ErrorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/RatingError.html">RatingError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ReportReason.html">ReportReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Sender.html">Sender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/SessionState.html">SessionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/UserStreamRating.html">UserStreamRating</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Other%20Extensions.html#/AppKit">AppKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Other%20Extensions.html#/DecodableDefault">DecodableDefault</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/AdvertisementDelegate.html">AdvertisementDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Advertisements.html">Advertisements</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Chat.html">Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ChatDelegate.html">ChatDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ErrorReceiving.html">ErrorReceiving</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Rating.html">Rating</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SessionControl.html">SessionControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/StreamSessionDelegate.html">StreamSessionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Streams.html">Streams</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/StreamsDelegate.html">StreamsDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Structs.html">Other Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/Message.html">Message</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamLanguage.html">StreamLanguage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Team.html">Team</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <h1 id='ios-example-app-playing-the-audio' class='heading'>iOS Example App playing the audio</h1>
+
+<p>The StreamPlayer class is responsible for playing the audio received from the mycrocast SDK</p>
+
+<p>This is just an example implementation how you could go about <a href="../iOS%20Connecting%20to%20a%20live%20stream.html">playing the audio</a>. </p>
+
+<p>The StreamPlayer is a member variable of the AudioSession class.</p>
+
+<p>We use mainly the 3 swift classes from the AVFoundation</p>
+<pre class="highlight plaintext"><code>private let audioEngine: AVAudioEngine
+private let playerNode: AVAudioPlayerNode
+private let converter: AVAudioConverter
+</code></pre>
+
+<p>Because we want to mute our live stream when an advertisement is played we also provide the functionality to set the volume to zero.</p>
+
+<p>As always when wanting to play audio, we need to make sure that we have an active audio session.</p>
+<pre class="highlight swift"><code><span class="cm">/**
+ This is an example class of playing the live audio stream.
+ The live audio stream data is received in AVAUDIOPCMBuffer with 48000khz and 16 pcm data and 960 frames of data
+ And played with an AVAudioPlayerNode and AVAudioEngine
+
+ The StreamPlayer reacts on updates for advertisement plays and sets the volume to zero when an advertisement is
+ started and afterwards resets the volume to the previous level
+ */</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kt">StreamPlayer</span><span class="p">:</span> <span class="kt">AdPlayStateChangeDelegate</span> <span class="p">{</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">audioEngine</span><span class="p">:</span> <span class="kt">AVAudioEngine</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">playerNode</span><span class="p">:</span> <span class="kt">AVAudioPlayerNode</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">converter</span><span class="p">:</span> <span class="kt">AVAudioConverter</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">inputFormat</span><span class="p">:</span> <span class="kt">AVAudioFormat</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">outputFormat</span><span class="p">:</span> <span class="kt">AVAudioFormat</span>
+
+    <span class="nf">init</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">audioEngine</span> <span class="o">=</span> <span class="kt">AVAudioEngine</span><span class="p">()</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">playerNode</span> <span class="o">=</span> <span class="kt">AVAudioPlayerNode</span><span class="p">()</span>
+        <span class="k">do</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">outputFormat</span> <span class="o">=</span> <span class="k">self</span><span class="o">.</span><span class="n">audioEngine</span><span class="o">.</span><span class="n">outputNode</span><span class="o">.</span><span class="nf">outputFormat</span><span class="p">(</span><span class="nv">forBus</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">inputFormat</span> <span class="o">=</span> <span class="kt">AVAudioFormat</span><span class="p">(</span><span class="nv">commonFormat</span><span class="p">:</span> <span class="o">.</span><span class="n">pcmFormatInt16</span><span class="p">,</span> <span class="nv">sampleRate</span><span class="p">:</span> <span class="mi">48000</span><span class="p">,</span> <span class="nv">channels</span><span class="p">:</span> <span class="kt">AVAudioChannelCount</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="nv">interleaved</span><span class="p">:</span> <span class="kc">false</span><span class="p">)</span><span class="o">!</span>
+
+            <span class="k">self</span><span class="o">.</span><span class="n">converter</span> <span class="o">=</span> <span class="kt">AVAudioConverter</span><span class="p">(</span><span class="nv">from</span><span class="p">:</span> <span class="n">inputFormat</span><span class="p">,</span> <span class="nv">to</span><span class="p">:</span> <span class="n">outputFormat</span><span class="p">)</span><span class="o">!</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">converter</span><span class="o">.</span><span class="n">downmix</span> <span class="o">=</span> <span class="kc">true</span>
+            <span class="nf">configureAudioSession</span><span class="p">()</span>
+
+            <span class="k">self</span><span class="o">.</span><span class="n">audioEngine</span><span class="o">.</span><span class="nf">attach</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">playerNode</span><span class="p">)</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">audioEngine</span><span class="o">.</span><span class="nf">connect</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">playerNode</span><span class="p">,</span> <span class="nv">to</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">audioEngine</span><span class="o">.</span><span class="n">outputNode</span><span class="p">,</span> <span class="nv">format</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">outputFormat</span><span class="p">)</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">audioEngine</span><span class="o">.</span><span class="nf">prepare</span><span class="p">()</span>
+            <span class="k">try</span> <span class="k">self</span><span class="o">.</span><span class="n">audioEngine</span><span class="o">.</span><span class="nf">start</span><span class="p">()</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">playerNode</span><span class="o">.</span><span class="nf">prepare</span><span class="p">(</span><span class="nv">withFrameCount</span><span class="p">:</span> <span class="mi">960</span><span class="p">)</span>
+        <span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
+            <span class="nf">print</span><span class="p">(</span><span class="s">"Player error: </span><span class="se">\(</span><span class="n">error</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+        <span class="p">}</span>
+
+        <span class="kt">Broadcaster</span><span class="o">.</span><span class="nf">register</span><span class="p">(</span><span class="kt">AdPlayStateChangeDelegate</span><span class="o">.</span><span class="k">self</span><span class="p">,</span> <span class="nv">observer</span><span class="p">:</span> <span class="k">self</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">deinit</span> <span class="p">{</span>
+        <span class="kt">Broadcaster</span><span class="o">.</span><span class="nf">unregister</span><span class="p">(</span><span class="kt">AdPlayStateChangeDelegate</span><span class="o">.</span><span class="k">self</span><span class="p">,</span> <span class="nv">observer</span><span class="p">:</span> <span class="k">self</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     Schedule the play of a single buffer of data
+     - Parameter buffer:
+     */</span>
+    <span class="kd">func</span> <span class="nf">play</span><span class="p">(</span><span class="n">_</span> <span class="nv">buffer</span><span class="p">:</span> <span class="kt">AVAudioPCMBuffer</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">outputBuffer</span> <span class="o">=</span> <span class="kt">AVAudioPCMBuffer</span><span class="p">(</span><span class="nv">pcmFormat</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">outputFormat</span><span class="p">,</span> <span class="nv">frameCapacity</span><span class="p">:</span> <span class="mi">960</span><span class="p">)</span><span class="o">!</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">converter</span><span class="o">.</span><span class="nf">convert</span><span class="p">(</span><span class="nv">to</span><span class="p">:</span> <span class="n">outputBuffer</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span> <span class="p">{</span> <span class="n">inNumPackets</span><span class="p">,</span> <span class="n">outStatus</span> <span class="k">in</span>
+            <span class="n">outStatus</span><span class="o">.</span><span class="n">pointee</span> <span class="o">=</span> <span class="o">.</span><span class="n">haveData</span>
+            <span class="k">return</span> <span class="n">buffer</span>
+        <span class="p">}</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">playerNode</span><span class="o">.</span><span class="nf">scheduleBuffer</span><span class="p">(</span><span class="n">outputBuffer</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">playerNode</span><span class="o">.</span><span class="n">volume</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">playerNode</span><span class="o">.</span><span class="nf">play</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">configureAudioSession</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">do</span> <span class="p">{</span>
+            <span class="k">try</span> <span class="kt">AVAudioSession</span><span class="o">.</span><span class="nf">sharedInstance</span><span class="p">()</span><span class="o">.</span><span class="nf">setCategory</span><span class="p">(</span><span class="o">.</span><span class="n">playback</span><span class="p">)</span>
+            <span class="k">try</span> <span class="kt">AVAudioSession</span><span class="o">.</span><span class="nf">sharedInstance</span><span class="p">()</span><span class="o">.</span><span class="nf">setActive</span><span class="p">(</span><span class="kc">true</span><span class="p">)</span>
+        <span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     An advertisement play started, therefore we reduce the volume to zero
+     */</span>
+    <span class="kd">func</span> <span class="nf">onAdPlayStarted</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">playerNode</span><span class="o">.</span><span class="n">volume</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     Advertisement finished, restore volume to hear the streamer again
+     */</span>
+    <span class="kd">func</span> <span class="nf">onAdPlayFinished</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">playerNode</span><span class="o">.</span><span class="n">volume</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2025 <a class="link" href="https://mycrocast.com" target="_blank" rel="external noopener">mycrocast Gmhb</a>. All rights reserved. (Last updated: 2025-03-20)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

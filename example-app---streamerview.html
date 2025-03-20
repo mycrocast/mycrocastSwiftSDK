@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Example App - StreamerView  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a title="Example App - StreamerView  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">MycrocastSDK Docs</a> (71% documented)</p>
+        <div class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">MycrocastSDK Reference</a>
+        <img id="carat" src="img/carat.png" alt=""/>
+        Example App - StreamerView  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Documentation.html">Documentation</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="overview.html">Overview</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="getting-started.html">Getting started</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="connecting-to-a-live-stream.html">Connecting to a live stream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="what-is-a-livestream.html">What is a LiveStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="mycrocast---entry.html">Mycrocast - Entry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="advertisement.html">Advertisement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="how-to-chat.html">How to Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="errors.html">Errors</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Example.html">Example</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="example-app-overview.html">Example App Overview</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app--audiosession---handling-a-stream.html">Example App  AudioSession - Handling a Stream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app-playing-the-audio.html">Example App playing the audio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app-livestreamcell.html">Example App LiveStreamCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app---advertisementbanner.html">Example App - AdvertisementBanner</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app---streamerview.html">Example App - StreamerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app---chat.html">Example App - Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app-viewcontroller.html">Example App ViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Other%20Classes.html#/s:12MycrocastSDK18AudioPackageBufferC">AudioPackageBuffer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DelayTimeContainer.html">DelayTimeContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LiveScoringStream.html">LiveScoringStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LiveStream.html">LiveStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Mycrocast.html">Mycrocast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MycrocastAdvertisement.html">MycrocastAdvertisement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MycrocastAssetProvider.html">MycrocastAssetProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MycrocastError.html">MycrocastError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Streamer.html">Streamer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/ChatStatus.html">ChatStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ErrorType.html">ErrorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/RatingError.html">RatingError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ReportReason.html">ReportReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Sender.html">Sender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/SessionState.html">SessionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/UserStreamRating.html">UserStreamRating</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Other%20Extensions.html#/AppKit">AppKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Other%20Extensions.html#/DecodableDefault">DecodableDefault</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/AdvertisementDelegate.html">AdvertisementDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Advertisements.html">Advertisements</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Chat.html">Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ChatDelegate.html">ChatDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ErrorReceiving.html">ErrorReceiving</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Rating.html">Rating</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SessionControl.html">SessionControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/StreamSessionDelegate.html">StreamSessionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Streams.html">Streams</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/StreamsDelegate.html">StreamsDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Structs.html">Other Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/Message.html">Message</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamLanguage.html">StreamLanguage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Team.html">Team</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <h1 id='ios-example-app-streamerview' class='heading'>iOS Example App - StreamerView</h1>
+
+<p>This view represents the details view for a single live stream.</p>
+
+<p>You can see here the number of listeners, likes and dislikes and also rate the stream yourself (if you are listening to it).</p>
+
+<p>In addition it displays different view elements if it is a LiveStream or a LiveScoringStream. </p>
+
+<p>You can move to the chat of this stream from here. And you see the status of the chat here (are you joined ? etc.)</p>
+
+<p>You can see, in case you are listening the maximum available delay as well as the current configured delay and can add/remove delay.</p>
+
+<p>We are listening to live stream changes to move away from this view in case the streamer stops exactly this stream.</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">Foundation</span>
+<span class="kd">import</span> <span class="kt">UIKit</span>
+<span class="kd">import</span> <span class="kt">MycrocastSDK</span>
+
+<span class="cm">/**
+ Example view of a streamer
+ that could be extended to also include a stop/play button
+ currently you see the header of the club, the name of the streamer,
+ you can rate and see the number of listeners
+
+ In this screen we subscribe to updates for the stream, update the view if the stream is updated
+ and navigate back when the stream has ended.
+ We can navigate to the chat for this stream from this view
+
+ We show the current status of the chat (joined, and if enabled or disabled) we can only now the status of the chat after
+ we joined. This is more for the developer intended and should probably not be displayed in any real app
+ */</span>
+<span class="kd">class</span> <span class="kt">StreamerView</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">StreamsDelegate</span><span class="p">,</span> <span class="kt">ChatDelegate</span> <span class="p">{</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">header</span><span class="p">:</span> <span class="kt">UIImageView</span> <span class="o">=</span> <span class="kt">UIImageView</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">streamerName</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">listener</span><span class="p">:</span> <span class="kt">UIButton</span> <span class="o">=</span> <span class="kt">UIButton</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">listenerCount</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">likeButton</span><span class="p">:</span> <span class="kt">UIButton</span> <span class="o">=</span> <span class="kt">UIButton</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">likeCount</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">dislikeButton</span><span class="p">:</span> <span class="kt">UIButton</span> <span class="o">=</span> <span class="kt">UIButton</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">dislikeCount</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">chatContainer</span><span class="p">:</span> <span class="kt">UIView</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">chatText</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">chatStatus</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">chatOpened</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+
+    <span class="kd">private</span> <span class="k">var</span> <span class="nv">streamDescription</span><span class="p">:</span> <span class="kt">DescriptionContaining</span><span class="p">?</span>
+
+    <span class="kd">private</span> <span class="k">var</span> <span class="nv">liveStream</span><span class="p">:</span> <span class="kt">LiveStream</span><span class="p">;</span>
+
+    <span class="nf">init</span><span class="p">(</span><span class="nv">liveStream</span><span class="p">:</span> <span class="kt">LiveStream</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">liveStream</span> <span class="o">=</span> <span class="n">liveStream</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">init</span><span class="p">(</span><span class="nv">nibName</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">bundle</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">coder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nf">fatalError</span><span class="p">(</span><span class="s">"init(coder:) has not been implemented"</span><span class="p">)</span>
+    <span class="p">}</span>
+
+
+    <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">createViews</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">animated</span><span class="p">)</span>
+
+        <span class="kt">AppDelegate</span><span class="o">.</span><span class="n">rootViewController</span> <span class="o">=</span> <span class="k">self</span>
+
+        <span class="c1">// subscribe to receive updates for streams</span>
+        <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">streams</span><span class="o">.</span><span class="nf">addObserver</span><span class="p">(</span><span class="k">self</span><span class="p">)</span>
+
+        <span class="c1">// we could have missed some updates as we unsubscribe on viewDidDisappear, therefore we</span>
+        <span class="c1">// fetch the latest version from the SDK</span>
+        <span class="k">let</span> <span class="nv">stream</span> <span class="o">=</span> <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">streams</span><span class="o">.</span><span class="nf">getStream</span><span class="p">(</span><span class="nv">streamId</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">liveStream</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+        <span class="k">if</span> <span class="k">let</span> <span class="nv">stream</span> <span class="o">=</span> <span class="n">stream</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">liveStream</span> <span class="o">=</span> <span class="n">stream</span>
+            <span class="k">self</span><span class="o">.</span><span class="nf">updateView</span><span class="p">(</span><span class="nv">stream</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">liveStream</span><span class="p">)</span>
+
+            <span class="k">if</span> <span class="p">(</span><span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="nf">chatJoined</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">liveStream</span><span class="o">.</span><span class="n">id</span><span class="p">))</span> <span class="p">{</span>
+                <span class="k">self</span><span class="o">.</span><span class="n">chatOpened</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"true"</span>
+                <span class="k">self</span><span class="o">.</span><span class="n">chatOpened</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">green</span>
+                <span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="nf">getChatStatus</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">liveStream</span><span class="o">.</span><span class="n">id</span><span class="p">)</span> <span class="o">==</span> <span class="o">.</span><span class="n">enabled</span> <span class="p">?</span> <span class="s">"enabled"</span> <span class="p">:</span>
+                        <span class="s">"disabled"</span>
+                <span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="nf">getChatStatus</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">liveStream</span><span class="o">.</span><span class="n">id</span><span class="p">)</span> <span class="o">==</span> <span class="o">.</span><span class="n">enabled</span> <span class="p">?</span> <span class="o">.</span><span class="nv">green</span> <span class="p">:</span>
+                        <span class="o">.</span><span class="n">red</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="k">self</span><span class="o">.</span><span class="n">chatOpened</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"false"</span>
+                <span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span>  <span class="s">"unknown"</span>
+                <span class="k">self</span><span class="o">.</span><span class="n">chatOpened</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">red</span>
+            <span class="p">}</span>
+            <span class="k">return</span>
+        <span class="p">}</span>
+
+        <span class="c1">// the stream is no longer available therefore we leave this view</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">onStreamRemoved</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">liveStream</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">viewDidDisappear</span><span class="p">(</span><span class="n">animated</span><span class="p">)</span>
+
+        <span class="c1">// clean unsubscribe to not receive updates anymore when the view disappears</span>
+        <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">streams</span><span class="o">.</span><span class="nf">removeObserver</span><span class="p">(</span><span class="k">self</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">createViews</span><span class="p">()</span> <span class="p">{</span>
+      <span class="c1">// removed for brevity sake</span>
+      <span class="c1">// just the setup of the different views</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+      A user hit the like button, therefore we send an update to the server
+      The update from the server with the new numbers does not come directly but with the next update cycle
+      therefore we adjust the numbers internally until the update arrives to show the user immediate feedback
+     -Parameter gestureRecognizer:
+     */</span>
+    <span class="kd">@objc</span> <span class="kd">private</span> <span class="kd">func</span> <span class="nf">likePressed</span><span class="p">(</span><span class="n">_</span> <span class="nv">gestureRecognizer</span><span class="p">:</span> <span class="kt">UITapGestureRecognizer</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">ratingError</span> <span class="o">=</span> <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">rating</span><span class="o">.</span><span class="nf">like</span><span class="p">(</span><span class="nv">streamId</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">liveStream</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+        <span class="k">if</span> <span class="k">let</span> <span class="nv">error</span> <span class="o">=</span> <span class="n">ratingError</span> <span class="p">{</span>
+            <span class="nf">print</span><span class="p">(</span><span class="s">"rating failed"</span><span class="p">)</span>
+            <span class="nf">print</span><span class="p">(</span><span class="n">error</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     The user selected the dislike
+     The update from the server with the new numbers does not come directly but with the next update cycle
+     therefore we adjust the numbers internally until the update arrives to show the user immediate feedback
+     - Parameter gestureRecognizer:
+     */</span>
+    <span class="kd">@objc</span> <span class="kd">private</span> <span class="kd">func</span> <span class="nf">dislikePressed</span><span class="p">(</span><span class="n">_</span> <span class="nv">gestureRecognizer</span><span class="p">:</span> <span class="kt">UITapGestureRecognizer</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">ratingError</span> <span class="o">=</span> <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">rating</span><span class="o">.</span><span class="nf">dislike</span><span class="p">(</span><span class="nv">streamId</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">liveStream</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+        <span class="k">if</span> <span class="k">let</span> <span class="nv">error</span> <span class="o">=</span> <span class="n">ratingError</span> <span class="p">{</span>
+            <span class="nf">print</span><span class="p">(</span><span class="s">"rating failed"</span><span class="p">)</span>
+            <span class="nf">print</span><span class="p">(</span><span class="n">error</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+        <span class="cm">/**
+     Callback executed when the delay button is clicked, which will add 1s of delay.
+     Moving further away from the live moment
+     - Parameter sender:
+     */</span>
+    <span class="kd">@objc</span> <span class="kd">private</span> <span class="kd">func</span> <span class="nf">onDelayAdded</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIButton</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">currentDelay</span> <span class="o">=</span> <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">sessionControl</span><span class="o">.</span><span class="nf">currentDelay</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1000</span>
+        <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">sessionControl</span><span class="o">.</span><span class="nf">setDelay</span><span class="p">(</span><span class="nv">delay</span><span class="p">:</span> <span class="n">currentDelay</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">currentConfiguredDelay</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="kt">String</span><span class="p">(</span><span class="n">currentDelay</span><span class="p">)</span> <span class="o">+</span> <span class="s">" ms"</span>
+    <span class="p">}</span>
+
+
+    <span class="cm">/**
+     Callback executed when the delay removal button is clicked, this will remove a second delay moving closer to the live moment
+     - Parameter sender:
+     */</span>
+    <span class="kd">@objc</span> <span class="kd">private</span> <span class="kd">func</span> <span class="nf">onDelayRemoved</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIButton</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">currentDelay</span> <span class="o">=</span> <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">sessionControl</span><span class="o">.</span><span class="nf">currentDelay</span><span class="p">()</span>
+        <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">sessionControl</span><span class="o">.</span><span class="nf">setDelay</span><span class="p">(</span><span class="nv">delay</span><span class="p">:</span> <span class="n">currentDelay</span> <span class="o">-</span> <span class="mi">1000</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">currentConfiguredDelay</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="kt">String</span><span class="p">(</span><span class="n">currentDelay</span> <span class="o">-</span> <span class="mi">1000</span><span class="p">)</span> <span class="o">+</span> <span class="s">" ms"</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     Move to the chat of this stream
+     - Parameter gestureRecognizer:
+     */</span>
+    <span class="kd">@objc</span> <span class="kd">private</span> <span class="kd">func</span> <span class="nf">chatClicked</span><span class="p">(</span><span class="n">_</span> <span class="nv">gestureRecognizer</span><span class="p">:</span> <span class="kt">UITapGestureRecognizer</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">chatController</span> <span class="o">=</span> <span class="kt">ChatController</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">liveStream</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">navigationController</span><span class="p">?</span><span class="o">.</span><span class="nf">pushViewController</span><span class="p">(</span><span class="n">chatController</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">updateView</span><span class="p">(</span><span class="nv">stream</span><span class="p">:</span> <span class="kt">LiveStream</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">DispatchQueue</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="k">async</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span><span class="p">?</span><span class="o">.</span><span class="nf">update</span><span class="p">(</span><span class="nv">stream</span><span class="p">:</span> <span class="n">stream</span><span class="p">)</span>
+
+            <span class="k">self</span><span class="o">.</span><span class="n">listenerCount</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="kt">String</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">listeners</span><span class="p">)</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">likeCount</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="kt">String</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">likes</span><span class="p">)</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">dislikeCount</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="kt">String</span><span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">dislikes</span><span class="p">)</span>
+
+            <span class="k">self</span><span class="o">.</span><span class="n">likeButton</span><span class="o">.</span><span class="n">tintColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">dislikeButton</span><span class="o">.</span><span class="n">tintColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+
+            <span class="k">if</span> <span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">myStreamRating</span> <span class="o">==</span> <span class="kt">UserStreamRating</span><span class="o">.</span><span class="n">negative</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">self</span><span class="o">.</span><span class="n">dislikeButton</span><span class="o">.</span><span class="n">tintColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">blue</span>
+            <span class="p">}</span>
+
+            <span class="k">if</span> <span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">myStreamRating</span> <span class="o">==</span> <span class="kt">UserStreamRating</span><span class="o">.</span><span class="n">positive</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">self</span><span class="o">.</span><span class="n">likeButton</span><span class="o">.</span><span class="n">tintColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">blue</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">onStreamAdded</span><span class="p">(</span><span class="n">_</span> <span class="nv">stream</span><span class="p">:</span> <span class="kt">LiveStream</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// not of interest here</span>
+        <span class="c1">// but could show an information about that a new stream is available</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">onStreamUpdated</span><span class="p">(</span><span class="n">_</span> <span class="nv">stream</span><span class="p">:</span> <span class="kt">LiveStream</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// has our current stream been updated?</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">id</span> <span class="o">==</span> <span class="k">self</span><span class="o">.</span><span class="n">liveStream</span><span class="o">.</span><span class="n">id</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">liveStream</span> <span class="o">=</span> <span class="n">stream</span>
+            <span class="k">self</span><span class="o">.</span><span class="nf">updateView</span><span class="p">(</span><span class="nv">stream</span><span class="p">:</span> <span class="n">stream</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">onStreamRemoved</span><span class="p">(</span><span class="n">_</span> <span class="nv">stream</span><span class="p">:</span> <span class="kt">LiveStream</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// has our stream been removed -&gt; the streamer stopped</span>
+        <span class="c1">// therefore we could move back or display something meaningful</span>
+        <span class="c1">// we currently just leave the view</span>
+
+        <span class="k">if</span> <span class="p">(</span><span class="n">stream</span><span class="o">.</span><span class="n">id</span> <span class="o">==</span> <span class="k">self</span><span class="o">.</span><span class="n">liveStream</span><span class="o">.</span><span class="n">id</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kt">DispatchQueue</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="k">async</span> <span class="p">{</span>
+                <span class="k">self</span><span class="o">.</span><span class="n">navigationController</span><span class="p">?</span><span class="o">.</span><span class="nf">popViewController</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">)</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">onMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">Message</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// not of interest here</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     Update the state of the chatroom if the current stream is the stream for which the update occurred
+     - Parameters:
+       - streamId: the if of the stream from where the chatroom changed itself
+       - status: the new status of the chatroom
+     */</span>
+    <span class="kd">func</span> <span class="nf">onChatStatusChanged</span><span class="p">(</span><span class="n">_</span> <span class="nv">streamId</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">status</span><span class="p">:</span> <span class="kt">ChatStatus</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">liveStream</span><span class="o">.</span><span class="n">id</span> <span class="o">==</span> <span class="n">streamId</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kt">DispatchQueue</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="k">async</span> <span class="p">{</span>
+                <span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">status</span> <span class="o">==</span> <span class="o">.</span><span class="n">enabled</span> <span class="p">?</span> <span class="s">"enabled"</span> <span class="p">:</span> <span class="s">"disabled"</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+        <span class="cm">/**
+     Receiver of the event that the maximum available delay has changed.
+     - Parameter delay: The new maximum
+     */</span>
+    <span class="kd">func</span> <span class="nf">onChangedTotalDelay</span><span class="p">(</span><span class="nv">delay</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">DispatchQueue</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="k">async</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">totalAvailableDelay</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="kt">String</span><span class="p">(</span><span class="n">delay</span><span class="p">)</span> <span class="o">+</span> <span class="s">" s"</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+</code></pre>
+<h3 id='streamtype' class='heading'>StreamType</h3>
+
+<p>To determine if it is a general or scoring stream we check if we can cast it and load the specific subview</p>
+<pre class="highlight swift"><code>  <span class="k">if</span> <span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">liveStream</span> <span class="k">as?</span> <span class="kt">LiveScoringStream</span><span class="p">)</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+            <span class="k">let</span> <span class="nv">scoringView</span> <span class="o">=</span> <span class="kt">ScoringView</span><span class="p">()</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span> <span class="o">=</span> <span class="n">scoringView</span>
+            <span class="n">scoringView</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+            <span class="n">lightWrapper</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">scoringView</span><span class="p">)</span>
+
+            <span class="n">scoringView</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">dislikeWrapper</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+            <span class="n">scoringView</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">lightWrapper</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+            <span class="n">scoringView</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">lightWrapper</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+            <span class="n">topView</span> <span class="o">=</span> <span class="n">scoringView</span>
+
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="k">let</span> <span class="nv">description</span> <span class="o">=</span> <span class="kt">GeneralDescription</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span> <span class="o">=</span> <span class="n">description</span>
+            <span class="n">description</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+            <span class="n">lightWrapper</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">description</span><span class="p">)</span>
+
+            <span class="n">description</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">darkBackground</span>
+            <span class="n">description</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">dislikeWrapper</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+            <span class="n">description</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">lightWrapper</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+            <span class="n">description</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">lightWrapper</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+            <span class="n">topView</span> <span class="o">=</span> <span class="n">description</span>
+        <span class="p">}</span>
+</code></pre>
+<h4 id='generaldescription' class='heading'>GeneralDescription</h4>
+
+<p>This view only contains a title and a short description as provided by the streamer</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">MycrocastSDK</span>
+
+<span class="cm">/**
+ This view represents the details view of a general stream, meaning that
+ during the stream creation the streamer did not select a scoring stream
+
+ This view consist of the from the streamer provided title and description
+ */</span>
+<span class="kd">class</span> <span class="kt">GeneralDescription</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="kt">DescriptionContaining</span> <span class="p">{</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">streamDescription</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+
+    <span class="nf">init</span><span class="p">(</span><span class="n">_</span> <span class="nv">cornerRadius</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">init</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">createViews</span><span class="p">(</span><span class="n">cornerRadius</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">coder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nf">fatalError</span><span class="p">(</span><span class="s">"init(coder:) has not been implemented"</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">createViews</span><span class="p">(</span><span class="n">_</span> <span class="nv">cornerRadius</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="p">{</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">layer</span><span class="o">.</span><span class="n">cornerRadius</span> <span class="o">=</span> <span class="kt">CGFloat</span><span class="p">(</span><span class="n">cornerRadius</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">darkBackground</span>
+
+        <span class="k">let</span> <span class="nv">descriptionLabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+        <span class="n">descriptionLabel</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="n">descriptionLabel</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">gray</span>
+        <span class="n">descriptionLabel</span><span class="o">.</span><span class="n">font</span> <span class="o">=</span> <span class="kt">UIFont</span><span class="o">.</span><span class="nf">systemFont</span><span class="p">(</span><span class="nv">ofSize</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="nv">weight</span><span class="p">:</span> <span class="o">.</span><span class="n">light</span><span class="p">)</span>
+        <span class="n">descriptionLabel</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"Description"</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">descriptionLabel</span><span class="p">)</span>
+        <span class="n">descriptionLabel</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">descriptionLabel</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">title</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"title"</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">descriptionLabel</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">15</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">descriptionLabel</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">descriptionLabel</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span><span class="o">.</span><span class="n">numberOfLines</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span><span class="o">.</span><span class="n">lineBreakMode</span> <span class="o">=</span> <span class="o">.</span><span class="n">byWordWrapping</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"description"</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">descriptionLabel</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">descriptionLabel</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">stream</span><span class="p">:</span> <span class="kt">LiveStream</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">title</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">streamDescription</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">stream</span><span class="o">.</span><span class="n">description</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+<h4 id='scoring' class='heading'>Scoring</h4>
+
+<p>This view contains 2 teams that are playing against each other as well as the scoring for each of those teams as configured by the streamer</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">MycrocastSDK</span>
+
+<span class="cm">/**
+ This view represents the details view of a stream where the streamer selected the scoring mode
+ In this mode the streamer provides 2 team names and can adjust the score for both teams at any given time
+
+ This example view display both team names and the score in addition to the title and description provided by the streamer
+ */</span>
+<span class="kd">class</span> <span class="kt">ScoringView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="kt">DescriptionContaining</span> <span class="p">{</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">homeTeamName</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">homeTeamScore</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">guestTeamName</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">guestTeamScore</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">generalDescription</span><span class="p">:</span> <span class="kt">GeneralDescription</span> <span class="o">=</span> <span class="kt">GeneralDescription</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+
+    <span class="nf">init</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">init</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">createViews</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">coder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nf">fatalError</span><span class="p">(</span><span class="s">"init(coder:) has not been implemented"</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">createViews</span><span class="p">()</span> <span class="p">{</span>
+
+        <span class="k">let</span> <span class="nv">scoringWrapper</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span>
+        <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">scoringWrapper</span><span class="p">)</span>
+
+        <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">let</span> <span class="nv">homeWrapper</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span>
+        <span class="n">homeWrapper</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="n">scoringWrapper</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">homeWrapper</span><span class="p">)</span>
+
+        <span class="n">homeWrapper</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">homeWrapper</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">greaterThanOrEqualTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">homeWrapper</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">homeWrapper</span><span class="o">.</span><span class="n">widthAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">widthAnchor</span><span class="p">,</span> <span class="nv">multiplier</span><span class="p">:</span> <span class="mf">0.4</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamName</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamName</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">yellow</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamName</span><span class="o">.</span><span class="n">textAlignment</span> <span class="o">=</span> <span class="o">.</span><span class="n">center</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamName</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"home team"</span>
+
+        <span class="n">homeWrapper</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">brown</span>
+        <span class="n">homeWrapper</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">homeTeamName</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamName</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">homeWrapper</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamName</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">homeWrapper</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamName</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">homeWrapper</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamScore</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamScore</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamScore</span><span class="o">.</span><span class="n">textAlignment</span> <span class="o">=</span> <span class="o">.</span><span class="n">center</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamScore</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"0"</span>
+
+        <span class="n">homeWrapper</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">homeTeamScore</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamScore</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">homeTeamName</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamScore</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">greaterThanOrEqualTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamScore</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">homeWrapper</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">homeTeamScore</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">homeWrapper</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">let</span> <span class="nv">guestWrapper</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span>
+        <span class="n">guestWrapper</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="n">scoringWrapper</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">guestWrapper</span><span class="p">)</span>
+
+        <span class="n">guestWrapper</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">guestWrapper</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">greaterThanOrEqualTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">guestWrapper</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">guestWrapper</span><span class="o">.</span><span class="n">widthAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">widthAnchor</span><span class="p">,</span> <span class="nv">multiplier</span><span class="p">:</span> <span class="mf">0.4</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamName</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamName</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamName</span><span class="o">.</span><span class="n">textAlignment</span> <span class="o">=</span> <span class="o">.</span><span class="n">center</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamName</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"guest team"</span>
+
+        <span class="n">guestWrapper</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">guestTeamName</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamName</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">guestWrapper</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamName</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">guestWrapper</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamName</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">guestWrapper</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamScore</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamScore</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamScore</span><span class="o">.</span><span class="n">textAlignment</span> <span class="o">=</span> <span class="o">.</span><span class="n">center</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamScore</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"0"</span>
+
+        <span class="n">guestWrapper</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">guestTeamScore</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamScore</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">guestTeamName</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamScore</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamScore</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">guestWrapper</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">guestTeamScore</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">guestWrapper</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">let</span> <span class="nv">dividerWrapper</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span>
+        <span class="n">dividerWrapper</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+
+        <span class="n">scoringWrapper</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">dividerWrapper</span><span class="p">)</span>
+        <span class="n">dividerWrapper</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">homeWrapper</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">dividerWrapper</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">homeWrapper</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">dividerWrapper</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">guestWrapper</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">dividerWrapper</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">purple</span>
+
+        <span class="k">let</span> <span class="nv">divider</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+        <span class="n">divider</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"-"</span>
+        <span class="n">divider</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+        <span class="n">divider</span><span class="o">.</span><span class="n">font</span> <span class="o">=</span> <span class="kt">UIFont</span><span class="o">.</span><span class="nf">systemFont</span><span class="p">(</span><span class="nv">ofSize</span><span class="p">:</span> <span class="mi">40</span><span class="p">)</span>
+        <span class="n">divider</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+
+        <span class="n">dividerWrapper</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">divider</span><span class="p">)</span>
+        <span class="n">divider</span><span class="o">.</span><span class="n">centerXAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">dividerWrapper</span><span class="o">.</span><span class="n">centerXAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="n">divider</span><span class="o">.</span><span class="n">centerYAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">dividerWrapper</span><span class="o">.</span><span class="n">centerYAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">generalDescription</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">generalDescription</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">generalDescription</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">black</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">generalDescription</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">generalDescription</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">generalDescription</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">scoringWrapper</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">generalDescription</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">stream</span><span class="p">:</span> <span class="kt">LiveStream</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="k">let</span> <span class="nv">scoring</span> <span class="o">=</span> <span class="n">stream</span> <span class="k">as?</span> <span class="kt">LiveScoringStream</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">homeTeamScore</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="kt">String</span><span class="p">(</span><span class="n">scoring</span><span class="o">.</span><span class="n">homeTeam</span><span class="o">.</span><span class="n">score</span><span class="p">)</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">homeTeamName</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">scoring</span><span class="o">.</span><span class="n">homeTeam</span><span class="o">.</span><span class="n">name</span>
+
+            <span class="k">self</span><span class="o">.</span><span class="n">guestTeamName</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">scoring</span><span class="o">.</span><span class="n">guestTeam</span><span class="o">.</span><span class="n">name</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">guestTeamScore</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="kt">String</span><span class="p">(</span><span class="n">scoring</span><span class="o">.</span><span class="n">guestTeam</span><span class="o">.</span><span class="n">score</span><span class="p">)</span>
+
+            <span class="k">self</span><span class="o">.</span><span class="n">generalDescription</span><span class="o">.</span><span class="nf">update</span><span class="p">(</span><span class="nv">stream</span><span class="p">:</span> <span class="n">stream</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2025 <a class="link" href="https://mycrocast.com" target="_blank" rel="external noopener">mycrocast Gmhb</a>. All rights reserved. (Last updated: 2025-03-20)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

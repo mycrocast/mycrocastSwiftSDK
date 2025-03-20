@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Example App - Chat  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a title="Example App - Chat  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">MycrocastSDK Docs</a> (71% documented)</p>
+        <div class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">MycrocastSDK Reference</a>
+        <img id="carat" src="img/carat.png" alt=""/>
+        Example App - Chat  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Documentation.html">Documentation</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="overview.html">Overview</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="getting-started.html">Getting started</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="connecting-to-a-live-stream.html">Connecting to a live stream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="what-is-a-livestream.html">What is a LiveStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="mycrocast---entry.html">Mycrocast - Entry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="advertisement.html">Advertisement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="how-to-chat.html">How to Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="errors.html">Errors</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Example.html">Example</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="example-app-overview.html">Example App Overview</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app--audiosession---handling-a-stream.html">Example App  AudioSession - Handling a Stream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app-playing-the-audio.html">Example App playing the audio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app-livestreamcell.html">Example App LiveStreamCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app---advertisementbanner.html">Example App - AdvertisementBanner</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app---streamerview.html">Example App - StreamerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app---chat.html">Example App - Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app-viewcontroller.html">Example App ViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Other%20Classes.html#/s:12MycrocastSDK18AudioPackageBufferC">AudioPackageBuffer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DelayTimeContainer.html">DelayTimeContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LiveScoringStream.html">LiveScoringStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LiveStream.html">LiveStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Mycrocast.html">Mycrocast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MycrocastAdvertisement.html">MycrocastAdvertisement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MycrocastAssetProvider.html">MycrocastAssetProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MycrocastError.html">MycrocastError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Streamer.html">Streamer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/ChatStatus.html">ChatStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ErrorType.html">ErrorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/RatingError.html">RatingError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ReportReason.html">ReportReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Sender.html">Sender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/SessionState.html">SessionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/UserStreamRating.html">UserStreamRating</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Other%20Extensions.html#/AppKit">AppKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Other%20Extensions.html#/DecodableDefault">DecodableDefault</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/AdvertisementDelegate.html">AdvertisementDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Advertisements.html">Advertisements</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Chat.html">Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ChatDelegate.html">ChatDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ErrorReceiving.html">ErrorReceiving</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Rating.html">Rating</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SessionControl.html">SessionControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/StreamSessionDelegate.html">StreamSessionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Streams.html">Streams</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/StreamsDelegate.html">StreamsDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Structs.html">Other Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/Message.html">Message</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamLanguage.html">StreamLanguage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Team.html">Team</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <h1 id='ios-example-app-chat' class='heading'>iOS Example App - Chat</h1>
+
+<p>The <a href="../iOS%20Chat.html">chat</a> is as an example implemented in the ChatController.</p>
+
+<p>Is uses a UITableView and the displayed cell is the ChatCell. It provides an input to send messages as well as a button to actually send the message.</p>
+
+<p>The ChatCell changes the visual placement depending on who is the sender of the message.</p>
+
+<p>In case the chat is disabled, the table view is hidden with all the control elements and only a message is displayed that the chat is hidden.</p>
+
+<p>Selecting a ChatCell prompts an option to report the message/user if you are not the sender yourself. </p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">Foundation</span>
+<span class="kd">import</span> <span class="kt">UIKit</span>
+<span class="kd">import</span> <span class="kt">MycrocastSDK</span>
+
+<span class="cm">/**
+ This controller represent the chat for a single stream.
+ It consist of an input field to enter a chat message, a button to send it and a table view containing all the
+ chat messages
+
+ If the chat was disabled by the streamer, we provide this information instead of showing the actual chat
+ This class is part of the example to show how to use the Chat part of the mycrocast SDK
+ */</span>
+<span class="kd">class</span> <span class="kt">ChatController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">UITableViewDelegate</span><span class="p">,</span> <span class="kt">UITableViewDataSource</span><span class="p">,</span> <span class="kt">ChatDelegate</span> <span class="p">{</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">chatTable</span><span class="p">:</span> <span class="kt">UITableView</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">input</span><span class="p">:</span> <span class="kt">UITextField</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIButton</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">chatStatus</span><span class="p">:</span> <span class="kt">UILabel</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">streamId</span><span class="p">:</span> <span class="kt">Int</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">chat</span><span class="p">:</span> <span class="kt">Chat</span>
+
+    <span class="kd">private</span> <span class="k">var</span> <span class="nv">chatMessages</span><span class="p">:</span> <span class="p">[</span><span class="kt">Message</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="nf">init</span><span class="p">(</span><span class="n">_</span> <span class="nv">streamId</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span> <span class="o">=</span> <span class="kt">UITableView</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">,</span> <span class="nv">style</span><span class="p">:</span> <span class="o">.</span><span class="n">plain</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">input</span> <span class="o">=</span> <span class="kt">UITextField</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sender</span> <span class="o">=</span> <span class="kt">UIButton</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chat</span> <span class="o">=</span> <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">chat</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">streamId</span> <span class="o">=</span> <span class="n">streamId</span>
+
+        <span class="k">super</span><span class="o">.</span><span class="nf">init</span><span class="p">(</span><span class="nv">nibName</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">bundle</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">lightBackground</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">sender</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">sender</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sender</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="o">-</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sender</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="n">safeAreaLayoutGuide</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sender</span><span class="o">.</span><span class="nf">setTitle</span><span class="p">(</span><span class="s">"Send"</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">normal</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sender</span><span class="o">.</span><span class="nf">setContentHuggingPriority</span><span class="p">(</span><span class="o">.</span><span class="n">defaultHigh</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">horizontal</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sender</span><span class="o">.</span><span class="nf">setContentHuggingPriority</span><span class="p">(</span><span class="o">.</span><span class="n">defaultHigh</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">vertical</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sender</span><span class="o">.</span><span class="nf">addTarget</span><span class="p">(</span><span class="k">self</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">#selector(</span><span class="nf">sendChat</span><span class="kd">)</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">touchUpInside</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">input</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">input</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">input</span><span class="o">.</span><span class="n">centerYAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">sender</span><span class="o">.</span><span class="n">centerYAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">input</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">input</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">sender</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">input</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">input</span><span class="o">.</span><span class="nf">setContentCompressionResistancePriority</span><span class="p">(</span><span class="o">.</span><span class="n">defaultHigh</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">horizontal</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">input</span><span class="o">.</span><span class="n">placeholder</span> <span class="o">=</span> <span class="s">"Enter chat message"</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">input</span><span class="o">.</span><span class="n">layer</span><span class="o">.</span><span class="n">cornerRadius</span> <span class="o">=</span> <span class="mi">5</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="nf">register</span><span class="p">(</span><span class="kt">ChatCell</span><span class="o">.</span><span class="k">self</span><span class="p">,</span> <span class="nv">forCellReuseIdentifier</span><span class="p">:</span> <span class="kt">ChatCell</span><span class="o">.</span><span class="kt">IDENTIFIER</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">lightBackground</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="n">estimatedRowHeight</span> <span class="o">=</span> <span class="mi">85</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="n">rowHeight</span> <span class="o">=</span> <span class="kt">UITableView</span><span class="o">.</span><span class="n">automaticDimension</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="n">dataSource</span> <span class="o">=</span> <span class="k">self</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">sender</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">15</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="n">safeAreaLayoutGuide</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="o">-</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">clear</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span><span class="o">.</span><span class="n">widthAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="n">widthAnchor</span><span class="p">,</span> <span class="nv">multiplier</span><span class="p">:</span> <span class="mf">0.75</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span><span class="o">.</span><span class="n">centerXAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="n">centerXAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span><span class="o">.</span><span class="n">centerYAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="n">centerYAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span><span class="o">.</span><span class="n">isHidden</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"Chat is disabled by the streamer"</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="nf">checkIfChatJoined</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+       We check if we have already joined (opened) the chat previously otherwise we join the chat
+       We need to be in the chat to receive updates for the chat and also we need to have joined to receive the last messages
+       and the state of the chat
+     */</span>
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">checkIfChatJoined</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="o">!</span><span class="k">self</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="nf">chatJoined</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">streamId</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="nf">joinChat</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">streamId</span><span class="p">)</span> <span class="p">{</span> <span class="n">messages</span><span class="p">,</span> <span class="n">chatStatus</span><span class="p">,</span> <span class="n">error</span> <span class="k">in</span>
+                <span class="k">if</span> <span class="k">let</span> <span class="nv">error</span> <span class="o">=</span> <span class="n">error</span> <span class="p">{</span>
+
+                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                    <span class="k">self</span><span class="o">.</span><span class="n">chatMessages</span><span class="o">.</span><span class="nf">append</span><span class="p">(</span><span class="nv">contentsOf</span><span class="p">:</span> <span class="n">messages</span><span class="p">)</span>
+                    <span class="kt">DispatchQueue</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="k">async</span> <span class="p">{</span>
+                        <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="nf">reloadData</span><span class="p">()</span>
+                    <span class="p">}</span>
+
+                    <span class="k">self</span><span class="o">.</span><span class="nf">onChatStatusChanged</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">streamId</span><span class="p">,</span> <span class="nv">status</span><span class="p">:</span> <span class="n">chatStatus</span><span class="p">)</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">animated</span><span class="p">)</span>
+
+        <span class="c1">// We subscribe for updates to the chat so that we can display them again</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="nf">addObserver</span><span class="p">(</span><span class="k">self</span><span class="p">)</span>
+        <span class="c1">// we clear everything and get the internal chat messages because we could have missed</span>
+        <span class="c1">// messages when this view was closed and we did unsubscribe from the observer</span>
+        <span class="c1">// the internal messages are only received when we joined the chat</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatMessages</span><span class="o">.</span><span class="nf">removeAll</span><span class="p">()</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatMessages</span><span class="o">.</span><span class="nf">append</span><span class="p">(</span><span class="nv">contentsOf</span><span class="p">:</span> <span class="n">chat</span><span class="o">.</span><span class="nf">getChatMessages</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">streamId</span><span class="p">))</span> <span class="c1">// get internal messages</span>
+        <span class="kt">DispatchQueue</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="k">async</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="nf">reloadData</span><span class="p">()</span>
+            <span class="c1">// update the status of the chat in case we missed an update</span>
+            <span class="k">self</span><span class="o">.</span><span class="nf">onChatStatusChanged</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">streamId</span><span class="p">,</span> <span class="nv">status</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="nf">getChatStatus</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">streamId</span><span class="p">))</span>
+        <span class="p">}</span>
+
+        <span class="kt">AppDelegate</span><span class="o">.</span><span class="n">rootViewController</span> <span class="o">=</span> <span class="k">self</span>
+    <span class="p">}</span>
+
+    <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">viewWillDisappear</span><span class="p">(</span><span class="n">animated</span><span class="p">)</span>
+
+        <span class="c1">// unsubscribe again as this view will close</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="nf">removeObserver</span><span class="p">(</span><span class="k">self</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">coder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nf">fatalError</span><span class="p">(</span><span class="s">"init(coder:) has not been implemented"</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+      We send a chat message if the text input is not empty
+      We could be blocked by the streamer, we get this information in the response to the message
+      We can either display this to the user or not
+     */</span>
+    <span class="kd">@objc</span> <span class="kd">private</span> <span class="kd">func</span> <span class="nf">sendChat</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="k">let</span> <span class="nv">message</span> <span class="o">=</span> <span class="k">self</span><span class="o">.</span><span class="n">input</span><span class="o">.</span><span class="n">text</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">input</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">""</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">input</span><span class="o">.</span><span class="nf">resignFirstResponder</span><span class="p">()</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="nf">sendChatMessage</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">streamId</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="n">message</span><span class="p">)</span> <span class="p">{</span> <span class="n">success</span><span class="p">,</span> <span class="n">error</span> <span class="k">in</span>
+                <span class="c1">// success is false in case you are blocked by the streamer</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">numberOfRowsInSection</span> <span class="nv">section</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">self</span><span class="o">.</span><span class="n">chatMessages</span><span class="o">.</span><span class="n">count</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">cellForRowAt</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UITableViewCell</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">cell</span> <span class="o">=</span> <span class="n">tableView</span><span class="o">.</span><span class="nf">dequeueReusableCell</span><span class="p">(</span><span class="nv">withIdentifier</span><span class="p">:</span> <span class="kt">ChatCell</span><span class="o">.</span><span class="kt">IDENTIFIER</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="n">indexPath</span><span class="p">)</span> <span class="k">as!</span> <span class="kt">ChatCell</span>
+        <span class="k">let</span> <span class="nv">message</span> <span class="o">=</span> <span class="k">self</span><span class="o">.</span><span class="n">chatMessages</span><span class="p">[</span><span class="n">indexPath</span><span class="o">.</span><span class="n">row</span><span class="p">]</span>
+
+        <span class="n">cell</span><span class="o">.</span><span class="nf">update</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">cell</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     After we subscribed to the observer we receive here new chat message
+     This update is called for all currently open chats, therefore we need to check if this messages belongs
+     to our current stream
+     - Parameter message: the new chat message
+     */</span>
+    <span class="kd">func</span> <span class="nf">onMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">Message</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">streamId</span> <span class="o">!=</span> <span class="n">message</span><span class="o">.</span><span class="n">streamId</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span>
+        <span class="p">}</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatMessages</span><span class="o">.</span><span class="nf">append</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+        <span class="kt">DispatchQueue</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="k">async</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="nf">reloadData</span><span class="p">()</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     After we subscribed to the observer we receive here updates for the chat status in general,
+      this can be that the streamer decided to disable or enable the chat
+      Because we get this update for each currently open chat, we need to check if this change is for our currently shown
+      chat
+     - Parameters:
+       - streamId: id of the stream where the status update happened
+       - status:   the new status of the chat
+     */</span>
+    <span class="kd">func</span> <span class="nf">onChatStatusChanged</span><span class="p">(</span><span class="n">_</span> <span class="nv">streamId</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">status</span><span class="p">:</span> <span class="kt">ChatStatus</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">streamId</span> <span class="o">!=</span> <span class="n">streamId</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span>
+        <span class="p">}</span>
+
+        <span class="kt">DispatchQueue</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="k">async</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">chatTable</span><span class="o">.</span><span class="n">isHidden</span> <span class="o">=</span> <span class="n">status</span> <span class="o">==</span> <span class="o">.</span><span class="n">disabled</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">input</span><span class="o">.</span><span class="n">isHidden</span> <span class="o">=</span> <span class="n">status</span> <span class="o">==</span> <span class="o">.</span><span class="n">disabled</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">sender</span><span class="o">.</span><span class="n">isHidden</span> <span class="o">=</span> <span class="n">status</span> <span class="o">==</span> <span class="o">.</span><span class="n">disabled</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">chatStatus</span><span class="o">.</span><span class="n">isHidden</span> <span class="o">=</span> <span class="n">status</span> <span class="o">==</span> <span class="o">.</span><span class="n">enabled</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>First we need to register ourself with the chat by confirming to the ChatDelegate protocol and adding ourself as Observer in the Chat</p>
+
+<p>Second we need to determine if we have already joined the chat, if so we just get the current messages for this chat to display, otherwise we start by joining the chat.</p>
+
+<p>Third we check the state of the chatroom and display or hide the control elements accordingly.</p>
+
+<p>This is all done in ViewWillAppear.</p>
+<h4 id='chatcell' class='heading'>ChatCell</h4>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">Foundation</span>
+<span class="kd">import</span> <span class="kt">UIKit</span>
+
+<span class="kd">import</span> <span class="kt">MycrocastSDK</span>
+
+
+<span class="cm">/**
+ This is a single chat cell (visual representation of a single chat message)
+ Based on who has written the message we display it right or left and in a different color for the name
+ of the sender.
+ Selecting the cell will open a context menu where the user can report the message
+ */</span>
+<span class="kd">class</span> <span class="kt">ChatCell</span><span class="p">:</span> <span class="kt">UITableViewCell</span> <span class="p">{</span>
+
+    <span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">IDENTIFIER</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"chat"</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">messageContainer</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">message</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">author</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">time</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+
+    <span class="kd">private</span> <span class="k">var</span> <span class="nv">leftConstraint</span><span class="p">:</span> <span class="kt">NSLayoutConstraint</span><span class="p">?</span>
+    <span class="kd">private</span> <span class="k">var</span> <span class="nv">rightConstraint</span><span class="p">:</span> <span class="kt">NSLayoutConstraint</span><span class="p">?</span>
+
+    <span class="kd">private</span> <span class="k">var</span> <span class="nv">chatMessage</span><span class="p">:</span> <span class="kt">Message</span><span class="p">?</span>
+
+    <span class="k">override</span> <span class="nf">init</span><span class="p">(</span><span class="nv">style</span><span class="p">:</span> <span class="kt">CellStyle</span><span class="p">,</span> <span class="nv">reuseIdentifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">init</span><span class="p">(</span><span class="nv">style</span><span class="p">:</span> <span class="n">style</span><span class="p">,</span> <span class="nv">reuseIdentifier</span><span class="p">:</span> <span class="n">reuseIdentifier</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="nf">createInitialLayout</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">coder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">init</span><span class="p">(</span><span class="nv">coder</span><span class="p">:</span> <span class="n">coder</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">createInitialLayout</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">contentView</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">lightBackground</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">darkBackground</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">layer</span><span class="o">.</span><span class="n">cornerRadius</span> <span class="o">=</span> <span class="mi">15</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">layer</span><span class="o">.</span><span class="n">borderWidth</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">layer</span><span class="o">.</span><span class="n">borderColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">lightGrey</span><span class="o">.</span><span class="n">cgColor</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">contentView</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">messageContainer</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">numberOfLines</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">lineBreakMode</span> <span class="o">=</span> <span class="o">.</span><span class="n">byWordWrapping</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">font</span> <span class="o">=</span> <span class="o">.</span><span class="nf">systemFont</span><span class="p">(</span><span class="nv">ofSize</span><span class="p">:</span> <span class="mi">15</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">message</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="o">-</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="o">-</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">font</span> <span class="o">=</span> <span class="o">.</span><span class="nf">systemFont</span><span class="p">(</span><span class="nv">ofSize</span><span class="p">:</span> <span class="mi">12</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">contentView</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">author</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">contentView</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">time</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">time</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">lightGrey</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">time</span><span class="o">.</span><span class="n">font</span> <span class="o">=</span> <span class="o">.</span><span class="nf">systemFont</span><span class="p">(</span><span class="nv">ofSize</span><span class="p">:</span> <span class="mi">10</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">contentView</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">time</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">time</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">time</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">time</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">widthAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">contentView</span><span class="o">.</span><span class="n">widthAnchor</span><span class="p">,</span> <span class="nv">multiplier</span><span class="p">:</span> <span class="mf">0.8</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">contentView</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">rightConstraint</span> <span class="o">=</span> <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">contentView</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">leftConstraint</span> <span class="o">=</span> <span class="k">self</span><span class="o">.</span><span class="n">messageContainer</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">contentView</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span>
+
+        <span class="k">let</span> <span class="nv">gestureRecognizer</span> <span class="o">=</span> <span class="kt">UITapGestureRecognizer</span><span class="p">(</span><span class="nv">target</span><span class="p">:</span> <span class="k">self</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">#selector(</span><span class="nf">self.onCellClicked(_:)</span><span class="kd">)</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">addGestureRecognizer</span><span class="p">(</span><span class="n">gestureRecognizer</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     Open the context menu to allow the user to report a chat message if the message is not from myself
+     - Parameter recognizer:
+     */</span>
+    <span class="kd">@objc</span> <span class="kd">private</span> <span class="kd">func</span> <span class="nf">onCellClicked</span><span class="p">(</span><span class="n">_</span> <span class="nv">recognizer</span><span class="p">:</span> <span class="kt">UITapGestureRecognizer</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">chatMessage</span><span class="p">?</span><span class="o">.</span><span class="nf">getSender</span><span class="p">()</span> <span class="o">==</span> <span class="o">.</span><span class="n">myself</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span>
+        <span class="p">}</span>
+
+        <span class="k">let</span> <span class="nv">optionMenu</span> <span class="o">=</span> <span class="kt">UIAlertController</span><span class="p">(</span><span class="nv">title</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="s">"Choose Option"</span><span class="p">,</span> <span class="nv">preferredStyle</span><span class="p">:</span> <span class="o">.</span><span class="n">actionSheet</span><span class="p">)</span>
+
+        <span class="k">let</span> <span class="nv">reportAction</span> <span class="o">=</span> <span class="kt">UIAlertAction</span><span class="p">(</span><span class="nv">title</span><span class="p">:</span> <span class="s">"Report"</span><span class="p">,</span> <span class="nv">style</span><span class="p">:</span> <span class="o">.</span><span class="k">default</span><span class="p">)</span> <span class="p">{</span> <span class="n">action</span> <span class="k">in</span>
+            <span class="k">if</span> <span class="k">let</span> <span class="nv">chatMessage</span> <span class="o">=</span> <span class="k">self</span><span class="o">.</span><span class="n">chatMessage</span> <span class="p">{</span>
+                <span class="k">let</span> <span class="nv">rootView</span> <span class="o">=</span> <span class="kt">AppDelegate</span><span class="o">.</span><span class="n">rootViewController</span><span class="p">?</span><span class="o">.</span><span class="n">view</span>
+
+                <span class="k">let</span> <span class="nv">reportView</span> <span class="o">=</span> <span class="kt">ChatReport</span><span class="p">(</span><span class="n">chatMessage</span><span class="p">)</span>
+                <span class="n">reportView</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+
+                <span class="n">rootView</span><span class="o">!.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">reportView</span><span class="p">)</span>
+                <span class="n">reportView</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">rootView</span><span class="o">!.</span><span class="n">safeAreaLayoutGuide</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="o">-</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+                <span class="n">reportView</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">rootView</span><span class="o">!.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+                <span class="n">reportView</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">rootView</span><span class="o">!.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+                <span class="n">reportView</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">rootView</span><span class="o">!.</span><span class="n">safeAreaLayoutGuide</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">let</span> <span class="nv">cancelAction</span> <span class="o">=</span> <span class="kt">UIAlertAction</span><span class="p">(</span><span class="nv">title</span><span class="p">:</span> <span class="s">"Cancel"</span><span class="p">,</span> <span class="nv">style</span><span class="p">:</span> <span class="o">.</span><span class="n">cancel</span><span class="p">)</span>
+        <span class="n">optionMenu</span><span class="o">.</span><span class="nf">addAction</span><span class="p">(</span><span class="n">reportAction</span><span class="p">)</span>
+        <span class="n">optionMenu</span><span class="o">.</span><span class="nf">addAction</span><span class="p">(</span><span class="n">cancelAction</span><span class="p">)</span>
+
+        <span class="kt">AppDelegate</span><span class="o">.</span><span class="n">rootViewController</span><span class="p">?</span><span class="o">.</span><span class="nf">present</span><span class="p">(</span><span class="n">optionMenu</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     Update the view with the new content of the message
+     Based on the sender of the message we adjust the layout
+     - Parameter message: the new message
+     */</span>
+    <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">Message</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">rightConstraint</span><span class="p">?</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">leftConstraint</span><span class="p">?</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">false</span>
+
+        <span class="k">let</span> <span class="nv">sender</span> <span class="o">=</span> <span class="n">message</span><span class="o">.</span><span class="nf">getSender</span><span class="p">()</span>
+        <span class="k">switch</span> <span class="n">sender</span> <span class="p">{</span>
+        <span class="k">case</span> <span class="o">.</span><span class="nv">streamer</span><span class="p">:</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">streamerChatName</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">rightConstraint</span><span class="p">?</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">case</span> <span class="o">.</span><span class="nv">myself</span><span class="p">:</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">chatName</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">leftConstraint</span><span class="p">?</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">case</span> <span class="o">.</span><span class="nv">other</span><span class="p">:</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">chatName</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">rightConstraint</span><span class="p">?</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="p">}</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">message</span><span class="o">.</span><span class="n">senderName</span>
+        <span class="k">let</span> <span class="nv">formatter</span> <span class="o">=</span> <span class="kt">DateFormatter</span><span class="p">()</span>
+        <span class="n">formatter</span><span class="o">.</span><span class="n">timeStyle</span> <span class="o">=</span> <span class="kt">DateFormatter</span><span class="o">.</span><span class="kt">Style</span><span class="o">.</span><span class="n">medium</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">time</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">formatter</span><span class="o">.</span><span class="nf">string</span><span class="p">(</span><span class="nv">from</span><span class="p">:</span> <span class="n">message</span><span class="o">.</span><span class="n">creationTime</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">message</span><span class="o">.</span><span class="n">message</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">chatMessage</span> <span class="o">=</span> <span class="n">message</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+<h4 id='reporting-a-user' class='heading'>Reporting a user</h4>
+
+<p>To report a user/chat message we provide the user a view where he can select the reason for the report and additionally provide more information if he chooses too.</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">Foundation</span>
+<span class="kd">import</span> <span class="kt">UIKit</span>
+<span class="kd">import</span> <span class="kt">MycrocastSDK</span>
+
+<span class="cm">/**
+ An example view where a user can report a chat message and therefore the specific user
+
+ To open this view, the user needs to select a chat cell and hit the report entry
+ */</span>
+<span class="kd">class</span> <span class="kt">ChatReport</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="kt">UIPickerViewDelegate</span><span class="p">,</span> <span class="kt">UIPickerViewDataSource</span> <span class="p">{</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">reasonTitle</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">reasonPicker</span><span class="p">:</span> <span class="kt">UIPickerView</span> <span class="o">=</span> <span class="kt">UIPickerView</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">reportTitle</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">reportDescriptionTitle</span><span class="p">:</span> <span class="kt">UILabel</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">reportDescription</span><span class="p">:</span> <span class="kt">UITextView</span> <span class="o">=</span> <span class="kt">UITextView</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">cancelButton</span><span class="p">:</span> <span class="kt">UIButton</span> <span class="o">=</span> <span class="kt">UIButton</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">sendReport</span><span class="p">:</span> <span class="kt">UIButton</span> <span class="o">=</span> <span class="kt">UIButton</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">chatMessage</span><span class="p">:</span> <span class="kt">Message</span>
+
+    <span class="nf">init</span><span class="p">(</span><span class="n">_</span> <span class="nv">chatMessage</span><span class="p">:</span> <span class="kt">Message</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">chatMessage</span> <span class="o">=</span> <span class="n">chatMessage</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">init</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">darkBackground</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">createViews</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="kd">private</span> <span class="kd">func</span> <span class="nf">createViews</span><span class="p">()</span> <span class="p">{</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">cancelButton</span><span class="o">.</span><span class="nf">setTitle</span><span class="p">(</span><span class="s">"X"</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">normal</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">cancelButton</span><span class="o">.</span><span class="nf">setTitleColor</span><span class="p">(</span><span class="o">.</span><span class="n">white</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">normal</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">cancelButton</span><span class="o">.</span><span class="nf">addTarget</span><span class="p">(</span><span class="k">self</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">#selector(</span><span class="nf">onCancel</span><span class="kd">)</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">touchUpInside</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">cancelButton</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">cancelButton</span><span class="o">.</span><span class="nf">setContentHuggingPriority</span><span class="p">(</span><span class="o">.</span><span class="kd">required</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">horizontal</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">cancelButton</span><span class="o">.</span><span class="nf">setContentHuggingPriority</span><span class="p">(</span><span class="o">.</span><span class="kd">required</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">vertical</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">cancelButton</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">cancelButton</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">cancelButton</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">reportTitle</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"Report chat user"</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportTitle</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportTitle</span><span class="o">.</span><span class="n">font</span> <span class="o">=</span> <span class="o">.</span><span class="nf">systemFont</span><span class="p">(</span><span class="nv">ofSize</span><span class="p">:</span> <span class="mi">18</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportTitle</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">reportTitle</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">reportTitle</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">cancelButton</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportTitle</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportTitle</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">cancelButton</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonTitle</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"Please select a reason for this report"</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonTitle</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonTitle</span><span class="o">.</span><span class="n">font</span> <span class="o">=</span> <span class="o">.</span><span class="nf">systemFont</span><span class="p">(</span><span class="nv">ofSize</span><span class="p">:</span> <span class="mi">12</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonTitle</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">reasonTitle</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonTitle</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">reportTitle</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonTitle</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">reportTitle</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonTitle</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">reportTitle</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="o">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="k">self</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="o">.</span><span class="n">dataSource</span> <span class="o">=</span> <span class="k">self</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="o">.</span><span class="nf">selectRow</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nv">inComponent</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">false</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">reportTitle</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="o">-</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">reasonTitle</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">reasonTitle</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescriptionTitle</span><span class="o">.</span><span class="n">font</span> <span class="o">=</span> <span class="o">.</span><span class="nf">systemFont</span><span class="p">(</span><span class="nv">ofSize</span><span class="p">:</span> <span class="mi">12</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescriptionTitle</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"Provide further information (optional)"</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescriptionTitle</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescriptionTitle</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">reportDescriptionTitle</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescriptionTitle</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescriptionTitle</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescriptionTitle</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescription</span><span class="o">.</span><span class="n">layer</span><span class="o">.</span><span class="n">cornerRadius</span> <span class="o">=</span> <span class="mi">5</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescription</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">reportDescription</span><span class="p">)</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescription</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">reportDescriptionTitle</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescription</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescription</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescription</span><span class="o">.</span><span class="n">heightAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalToConstant</span><span class="p">:</span> <span class="mi">50</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescription</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="o">.</span><span class="n">white</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescription</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">lightBackground</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">sendReport</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sendReport</span><span class="o">.</span><span class="nf">addTarget</span><span class="p">(</span><span class="k">self</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">#selector(</span><span class="nf">self.onSendReport</span><span class="kd">)</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">touchUpInside</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sendReport</span><span class="o">.</span><span class="nf">setTitle</span><span class="p">(</span><span class="s">"Send report"</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">normal</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sendReport</span><span class="o">.</span><span class="nf">setTitleColor</span><span class="p">(</span><span class="o">.</span><span class="n">white</span><span class="p">,</span> <span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">normal</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sendReport</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">Colors</span><span class="o">.</span><span class="n">lightBackground</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">sendReport</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sendReport</span><span class="o">.</span><span class="n">layer</span><span class="o">.</span><span class="n">cornerRadius</span> <span class="o">=</span> <span class="mi">5</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">sendReport</span><span class="o">.</span><span class="n">topAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">reportDescription</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sendReport</span><span class="o">.</span><span class="n">centerXAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">centerXAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+
+        <span class="k">let</span> <span class="nv">gesture</span> <span class="o">=</span> <span class="kt">UITapGestureRecognizer</span><span class="p">(</span><span class="nv">target</span><span class="p">:</span> <span class="k">self</span><span class="p">,</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">#selector(</span><span class="nf">self.onViewClicked(_:)</span><span class="kd">)</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">addGestureRecognizer</span><span class="p">(</span><span class="n">gesture</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">@objc</span> <span class="kd">private</span> <span class="kd">func</span> <span class="nf">onCancel</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">removeFromSuperview</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="kd">@objc</span> <span class="kd">private</span> <span class="kd">func</span> <span class="nf">onViewClicked</span><span class="p">(</span><span class="n">_</span> <span class="nv">gestureRecognizer</span><span class="p">:</span> <span class="kt">UITapGestureRecognizer</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">reportDescription</span><span class="o">.</span><span class="nf">resignFirstResponder</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     We send the report with the selected reason and the optional provided additional information
+     */</span>
+    <span class="kd">@objc</span> <span class="kd">private</span> <span class="kd">func</span> <span class="nf">onSendReport</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">reportReason</span> <span class="o">=</span> <span class="kt">ReportReason</span><span class="o">.</span><span class="n">allCases</span><span class="p">[</span><span class="k">self</span><span class="o">.</span><span class="n">reasonPicker</span><span class="o">.</span><span class="nf">selectedRow</span><span class="p">(</span><span class="nv">inComponent</span><span class="p">:</span> <span class="mi">0</span><span class="p">)]</span>
+        <span class="k">var</span> <span class="nv">info</span> <span class="o">=</span> <span class="s">""</span>
+        <span class="k">if</span> <span class="k">let</span> <span class="nv">additional</span> <span class="o">=</span> <span class="k">self</span><span class="o">.</span><span class="n">reportDescription</span><span class="o">.</span><span class="n">text</span> <span class="p">{</span>
+           <span class="n">info</span> <span class="o">=</span> <span class="n">additional</span>
+        <span class="p">}</span>
+        <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="nf">reportChatMessage</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">chatMessage</span><span class="p">,</span> <span class="nv">reason</span><span class="p">:</span> <span class="n">reportReason</span><span class="p">,</span> <span class="nv">additionalInformation</span><span class="p">:</span> <span class="n">info</span><span class="p">)</span> <span class="p">{</span> <span class="n">success</span><span class="p">,</span> <span class="n">error</span> <span class="k">in</span>
+            <span class="c1">// we could show some kind of message here</span>
+        <span class="p">}</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">removeFromSuperview</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">coder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nf">fatalError</span><span class="p">(</span><span class="s">"init(coder:) has not been implemented"</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">numberOfComponents</span><span class="p">(</span><span class="k">in</span> <span class="nv">pickerView</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="mi">1</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">pickerView</span><span class="p">(</span><span class="n">_</span> <span class="nv">pickerView</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="p">,</span> <span class="n">numberOfRowsInComponent</span> <span class="nv">component</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="kt">ReportReason</span><span class="o">.</span><span class="n">allCases</span><span class="o">.</span><span class="n">count</span>
+    <span class="p">}</span>
+
+    <span class="kd">public</span> <span class="kd">func</span> <span class="nf">pickerView</span><span class="p">(</span><span class="n">_</span> <span class="nv">pickerView</span><span class="p">:</span> <span class="kt">UIPickerView</span><span class="p">,</span> <span class="n">attributedTitleForRow</span> <span class="nv">row</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">forComponent</span> <span class="nv">component</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSAttributedString</span><span class="p">?</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">reportReason</span> <span class="o">=</span> <span class="kt">ReportReason</span><span class="o">.</span><span class="n">allCases</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">rawValue</span>
+
+        <span class="k">let</span> <span class="nv">reportReasonTitle</span> <span class="o">=</span> <span class="kt">NSAttributedString</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="n">reportReason</span><span class="p">,</span> <span class="nv">attributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSAttributedString</span><span class="o">.</span><span class="kt">Key</span><span class="o">.</span><span class="nv">foregroundColor</span><span class="p">:</span><span class="kt">UIColor</span><span class="o">.</span><span class="n">white</span><span class="p">])</span>
+        <span class="k">return</span> <span class="n">reportReasonTitle</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+</code></pre>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2025 <a class="link" href="https://mycrocast.com" target="_blank" rel="external noopener">mycrocast Gmhb</a>. All rights reserved. (Last updated: 2025-03-20)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

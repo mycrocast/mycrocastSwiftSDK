@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Example App  AudioSession - Handling a Stream  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a title="Example App  AudioSession - Handling a Stream  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">MycrocastSDK Docs</a> (71% documented)</p>
+        <div class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">MycrocastSDK Reference</a>
+        <img id="carat" src="img/carat.png" alt=""/>
+        Example App  AudioSession - Handling a Stream  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Documentation.html">Documentation</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="overview.html">Overview</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="getting-started.html">Getting started</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="connecting-to-a-live-stream.html">Connecting to a live stream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="what-is-a-livestream.html">What is a LiveStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="mycrocast---entry.html">Mycrocast - Entry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="advertisement.html">Advertisement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="how-to-chat.html">How to Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="errors.html">Errors</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Example.html">Example</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="example-app-overview.html">Example App Overview</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app--audiosession---handling-a-stream.html">Example App  AudioSession - Handling a Stream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app-playing-the-audio.html">Example App playing the audio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app-livestreamcell.html">Example App LiveStreamCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app---advertisementbanner.html">Example App - AdvertisementBanner</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app---streamerview.html">Example App - StreamerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app---chat.html">Example App - Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="example-app-viewcontroller.html">Example App ViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Other%20Classes.html#/s:12MycrocastSDK18AudioPackageBufferC">AudioPackageBuffer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DelayTimeContainer.html">DelayTimeContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LiveScoringStream.html">LiveScoringStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/LiveStream.html">LiveStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Mycrocast.html">Mycrocast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MycrocastAdvertisement.html">MycrocastAdvertisement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MycrocastAssetProvider.html">MycrocastAssetProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MycrocastError.html">MycrocastError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Streamer.html">Streamer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/ChatStatus.html">ChatStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ErrorType.html">ErrorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/RatingError.html">RatingError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ReportReason.html">ReportReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Sender.html">Sender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/SessionState.html">SessionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/UserStreamRating.html">UserStreamRating</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Other%20Extensions.html#/AppKit">AppKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Other%20Extensions.html#/DecodableDefault">DecodableDefault</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/AdvertisementDelegate.html">AdvertisementDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Advertisements.html">Advertisements</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Chat.html">Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ChatDelegate.html">ChatDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ErrorReceiving.html">ErrorReceiving</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Rating.html">Rating</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SessionControl.html">SessionControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/StreamSessionDelegate.html">StreamSessionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Streams.html">Streams</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/StreamsDelegate.html">StreamsDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Other%20Structs.html">Other Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/Message.html">Message</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StreamLanguage.html">StreamLanguage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Team.html">Team</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <h1 id='ios-example-app-audiosession-handling-a-stream' class='heading'>iOS Example App  AudioSession - Handling a Stream</h1>
+
+<p>The AudioSession class is instantiated from the AudioState as soon as we try to play a live stream and is handling the communication with the mycrocast sdk and forwarding the events to the corresponding player classes.</p>
+
+<p>We register ourself with the sdk to receive audio data updates forward them to the StreamPlayer, register for advertisement changes and start to play an advertisement if it becomes available as well as using the AdPlayManager to control the advertisement flow. (This is done through events but could be implemented with closures or otherwise).</p>
+
+<p>We start playing the mute music in case the streamer muted himself or stop playing when we receive the unmute event.</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">Foundation</span>
+<span class="kd">import</span> <span class="kt">MycrocastSDK</span>
+<span class="kd">import</span> <span class="kt">AVFoundation</span>
+
+<span class="cm">/**
+ Example class representing a single audio session, meaning the play of
+ a stream.
+ This class reacts on stream changes and advertisement plays
+ */</span>
+<span class="kd">class</span> <span class="kt">AudioSession</span><span class="p">:</span> <span class="kt">StreamSessionDelegate</span><span class="p">,</span> <span class="kt">AdvertisementDelegate</span> <span class="p">{</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">adPlayManager</span><span class="p">:</span> <span class="kt">AdPlayManager</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">streamPlayer</span><span class="p">:</span> <span class="kt">StreamPlayer</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">muteMusicPlayer</span><span class="p">:</span> <span class="kt">MuteMusicAudioPlayer</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">sessionControl</span><span class="p">:</span> <span class="kt">SessionControl</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">advertisements</span><span class="p">:</span> <span class="kt">Advertisements</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">stream</span><span class="p">:</span> <span class="kt">LiveStream</span>
+
+    <span class="nf">init</span><span class="p">(</span><span class="n">_</span> <span class="nv">stream</span><span class="p">:</span> <span class="kt">LiveStream</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">adPlayManager</span> <span class="o">=</span> <span class="kt">AdPlayManager</span><span class="p">(</span><span class="kt">AdvertisementPlayer</span><span class="p">())</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">streamPlayer</span> <span class="o">=</span> <span class="kt">StreamPlayer</span><span class="p">()</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">muteMusicPlayer</span> <span class="o">=</span> <span class="kt">MuteMusicAudioPlayer</span><span class="p">()</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">sessionControl</span> <span class="o">=</span> <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">sessionControl</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">advertisements</span> <span class="o">=</span> <span class="kt">Mycrocast</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">advertisements</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">stream</span> <span class="o">=</span> <span class="n">stream</span>
+
+        <span class="k">self</span><span class="o">.</span><span class="n">advertisements</span><span class="o">.</span><span class="nf">addObserver</span><span class="p">(</span><span class="nv">advertisementDelegate</span><span class="p">:</span> <span class="k">self</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sessionControl</span><span class="o">.</span><span class="nf">addObserver</span><span class="p">(</span><span class="nv">streamDelegate</span><span class="p">:</span> <span class="k">self</span><span class="p">)</span>
+
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     We are receiving session updates from the process of connecting to stop
+     Currently this is only printed for debugging but could be used to inform the user in detail
+     what the current state is
+     - Parameter state:
+     */</span>
+    <span class="kd">func</span> <span class="nf">onSessionStateUpdate</span><span class="p">(</span><span class="n">_</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">SessionState</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nf">print</span><span class="p">(</span><span class="n">state</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     We received a new audio package, we just schedule it for play
+     - Parameters:
+       - data: the new audio package
+       - duration: the duration of the audio package
+     */</span>
+    <span class="kd">func</span> <span class="nf">onAudioDataAvailable</span><span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">AVAudioPCMBuffer</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">streamPlayer</span><span class="o">.</span><span class="nf">play</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     We received a push that new advertisements are available, we play
+     them until no further ads are present
+     */</span>
+    <span class="kd">func</span> <span class="nf">onAdvertisementAvailable</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="k">let</span> <span class="nv">advertisement</span> <span class="o">=</span> <span class="k">self</span><span class="o">.</span><span class="n">advertisements</span><span class="o">.</span><span class="nf">getAdvertisement</span><span class="p">()</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">adPlayManager</span><span class="o">.</span><span class="nf">playAdvertisement</span><span class="p">(</span><span class="n">advertisement</span><span class="p">)</span> <span class="p">{</span> <span class="n">success</span> <span class="k">in</span>
+                <span class="k">self</span><span class="o">.</span><span class="nf">onAdvertisementAvailable</span><span class="p">()</span>
+            <span class="p">}</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">adPlayManager</span><span class="o">.</span><span class="nf">noMoreAds</span><span class="p">()</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     The streamer muted himself, if this is the stream we are currently in progress of playing,
+     we want to start playing the mute music
+     otherwise we can ignore it here
+     - Parameter stream: the stream where the streamer muted himself
+     */</span>
+    <span class="kd">func</span> <span class="nf">streamerMuted</span><span class="p">(</span><span class="n">_</span> <span class="nv">stream</span><span class="p">:</span> <span class="kt">LiveStream</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">stream</span><span class="o">.</span><span class="n">id</span> <span class="o">==</span> <span class="n">stream</span><span class="o">.</span><span class="n">id</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">muteMusicPlayer</span><span class="o">.</span><span class="nf">stop</span><span class="p">()</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     The streamer unmuted himself, if this is the stream we are currently playing we stop playing the mute music
+     otherwise we can ignore it
+     - Parameter stream: the stream from which the streamer unmuted himself
+     */</span>
+    <span class="kd">func</span> <span class="nf">streamerUnMuted</span><span class="p">(</span><span class="n">_</span> <span class="nv">stream</span><span class="p">:</span> <span class="kt">LiveStream</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">stream</span><span class="o">.</span><span class="n">id</span> <span class="o">==</span> <span class="n">stream</span><span class="o">.</span><span class="n">id</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">do</span> <span class="p">{</span>
+                <span class="k">try</span> <span class="k">self</span><span class="o">.</span><span class="n">muteMusicPlayer</span><span class="o">.</span><span class="nf">playFromUrl</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="n">stream</span><span class="o">.</span><span class="n">muteMusicUrl</span><span class="p">)</span>
+            <span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
+
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     We start the connection process to the live stream
+      If the stream is currently muted we start playing the mute music
+      We configure in this example a buffer duration of 2s and a maximum delay of 5 minutes
+     */</span>
+    <span class="kd">func</span> <span class="nf">play</span><span class="p">()</span> <span class="p">{</span>
+           <span class="k">self</span><span class="o">.</span><span class="n">sessionControl</span><span class="o">.</span><span class="nf">play</span><span class="p">(</span><span class="nv">streamId</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">stream</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="nv">bufferDuration</span><span class="p">:</span> <span class="mi">2000</span><span class="p">,</span> <span class="nv">maxDelay</span><span class="p">:</span> <span class="mi">300000</span><span class="p">)</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="n">stream</span><span class="o">.</span><span class="n">muted</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">do</span> <span class="p">{</span>
+                <span class="k">try</span> <span class="k">self</span><span class="o">.</span><span class="n">muteMusicPlayer</span><span class="o">.</span><span class="nf">playFromUrl</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="k">self</span><span class="o">.</span><span class="n">stream</span><span class="o">.</span><span class="n">muteMusicUrl</span><span class="p">)</span>
+            <span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     We stop the audio stream
+     */</span>
+    <span class="kd">func</span> <span class="nf">stop</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sessionControl</span><span class="o">.</span><span class="nf">stop</span><span class="p">()</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">advertisements</span><span class="o">.</span><span class="nf">removeObserver</span><span class="p">(</span><span class="nv">advertisementDelegate</span><span class="p">:</span> <span class="k">self</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">sessionControl</span><span class="o">.</span><span class="nf">removeObserver</span><span class="p">(</span><span class="nv">streamDelegate</span><span class="p">:</span> <span class="k">self</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">muteMusicPlayer</span><span class="o">.</span><span class="nf">stop</span><span class="p">()</span>
+    <span class="p">}</span>
+
+    <span class="cm">/**
+     Determine if the id of the passed stream is the id of the stream we are currently playing
+     - Parameter stream: - the stream
+     - Returns: true if we are currently playing the stream, false otherwise
+     */</span>
+    <span class="kd">func</span> <span class="nf">currentStream</span><span class="p">(</span><span class="n">_</span> <span class="nv">stream</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">self</span><span class="o">.</span><span class="n">sessionControl</span><span class="o">.</span><span class="nf">currentPlaying</span><span class="p">(</span><span class="nv">streamId</span><span class="p">:</span> <span class="n">stream</span><span class="p">)</span>
+    <span class="p">}</span>
+
+     <span class="cm">/**
+     Callback that the currently configurable available delay has changed.
+     We trigger in the example an event to update the view
+     - Parameter delay: the current maximum configurable delay
+     */</span>
+    <span class="kd">func</span> <span class="nf">onAvailableDelayChanged</span><span class="p">(</span><span class="n">_</span> <span class="nv">delay</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">Broadcaster</span><span class="o">.</span><span class="nf">notify</span><span class="p">(</span><span class="kt">DelayChange</span><span class="o">.</span><span class="k">self</span><span class="p">)</span> <span class="p">{</span> <span class="p">(</span><span class="nv">delegate</span><span class="p">:</span> <span class="kt">DelayChange</span><span class="p">)</span> <span class="k">in</span>
+            <span class="n">delegate</span><span class="o">.</span><span class="nf">onChangedTotalDelay</span><span class="p">(</span><span class="nv">delay</span><span class="p">:</span> <span class="n">delay</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2025 <a class="link" href="https://mycrocast.com" target="_blank" rel="external noopener">mycrocast Gmhb</a>. All rights reserved. (Last updated: 2025-03-20)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
