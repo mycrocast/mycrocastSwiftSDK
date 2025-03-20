@@ -1,0 +1,341 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/API/Mycrocast.swift",
+      "line": 9,
+      "symbol": "Mycrocast.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/AppState/Advertisements.swift",
+      "line": 3,
+      "symbol": "Advertisements",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/AppState/Advertisements.swift",
+      "line": 5,
+      "symbol": "Advertisements.onAdBannerClicked(_:advertisement:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/AppState/Chat.swift",
+      "line": 3,
+      "symbol": "Chat",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/AppState/Chat.swift",
+      "line": 91,
+      "symbol": "ChatStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/AppState/Chat.swift",
+      "line": 92,
+      "symbol": "ChatStatus.enabled",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/AppState/Chat.swift",
+      "line": 93,
+      "symbol": "ChatStatus.disabled",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/AppState/RatingManager.swift",
+      "line": 3,
+      "symbol": "Rating",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/AppState/RatingManager.swift",
+      "line": 111,
+      "symbol": "RatingError.not_allowed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/AppState/Session.swift",
+      "line": 3,
+      "symbol": "SessionControl",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Assets/MycrocastAssetProvider.swift",
+      "line": 4,
+      "symbol": "MycrocastAssetProvider",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Assets/MycrocastAssetProvider.swift",
+      "line": 6,
+      "symbol": "MycrocastAssetProvider.like()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Assets/MycrocastAssetProvider.swift",
+      "line": 10,
+      "symbol": "MycrocastAssetProvider.play()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Assets/MycrocastAssetProvider.swift",
+      "line": 14,
+      "symbol": "MycrocastAssetProvider.pause()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Assets/MycrocastAssetProvider.swift",
+      "line": 18,
+      "symbol": "MycrocastAssetProvider.muted()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Assets/MycrocastAssetProvider.swift",
+      "line": 22,
+      "symbol": "MycrocastAssetProvider.umuted()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Assets/MycrocastAssetProvider.swift",
+      "line": 26,
+      "symbol": "MycrocastAssetProvider.listener()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Data/Advertisement/Advertisement.swift",
+      "line": 23,
+      "symbol": "MycrocastAdvertisement.advertisementDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Data/Chat/ChatMessage.swift",
+      "line": 55,
+      "symbol": "Sender.myself",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Data/Chat/ChatMessage.swift",
+      "line": 56,
+      "symbol": "Sender.streamer",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Data/Chat/ChatMessage.swift",
+      "line": 57,
+      "symbol": "Sender.other",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Data/UserStream/LiveScoringStream.swift",
+      "line": 9,
+      "symbol": "LiveScoringStream.homeTeam",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Data/UserStream/LiveScoringStream.swift",
+      "line": 10,
+      "symbol": "LiveScoringStream.guestTeam",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Data/UserStream/LiveStream.swift",
+      "line": 15,
+      "symbol": "LiveStream.language",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Data/UserStream/UserStream.swift",
+      "line": 3,
+      "symbol": "UserStreamRating",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Data/UserStream/UserStream.swift",
+      "line": 4,
+      "symbol": "UserStreamRating.neutral",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Data/UserStream/UserStream.swift",
+      "line": 5,
+      "symbol": "UserStreamRating.positive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Data/UserStream/UserStream.swift",
+      "line": 6,
+      "symbol": "UserStreamRating.negative",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Data/UserStream/UserStream.swift",
+      "line": 80,
+      "symbol": "UserStream.createStreamCopy()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Errors/MycrocastError.swift",
+      "line": 57,
+      "symbol": "MycrocastError.init(_:description:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Errors/MycrocastError.swift",
+      "line": 63,
+      "symbol": "ErrorType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Errors/MycrocastError.swift",
+      "line": 66,
+      "symbol": "ErrorType.authentication",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Errors/MycrocastError.swift",
+      "line": 68,
+      "symbol": "ErrorType.connection",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Errors/MycrocastError.swift",
+      "line": 72,
+      "symbol": "ErrorType.security",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Errors/MycrocastError.swift",
+      "line": 77,
+      "symbol": "ErrorType.stream",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Errors/MycrocastError.swift",
+      "line": 80,
+      "symbol": "ErrorType.generic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Listener/Buffer/AudioPackageBuffer.swift",
+      "line": 4,
+      "symbol": "AudioPackageBuffer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Listener/Delay/DelayTimeContainer.swift",
+      "line": 3,
+      "symbol": "DelayTimeContainer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Listener/Delay/DelayTimeContainer.swift",
+      "line": 4,
+      "symbol": "DelayTimeContainer.maxDelay",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Listener/Delay/DelayTimeContainer.swift",
+      "line": 5,
+      "symbol": "DelayTimeContainer.currentDelay",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Rest/Requests/Chat/ReportChatUserProperties.swift",
+      "line": 21,
+      "symbol": "ReportReason",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Rest/Requests/Chat/ReportChatUserProperties.swift",
+      "line": 22,
+      "symbol": "ReportReason.racism",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Rest/Requests/Chat/ReportChatUserProperties.swift",
+      "line": 23,
+      "symbol": "ReportReason.homophobia",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Rest/Requests/Chat/ReportChatUserProperties.swift",
+      "line": 24,
+      "symbol": "ReportReason.sexism",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Rest/Requests/Chat/ReportChatUserProperties.swift",
+      "line": 25,
+      "symbol": "ReportReason.bullying",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Rest/Requests/Chat/ReportChatUserProperties.swift",
+      "line": 26,
+      "symbol": "ReportReason.intellectual",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Rest/Requests/Chat/ReportChatUserProperties.swift",
+      "line": 27,
+      "symbol": "ReportReason.other",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/SDKStreamManager.swift",
+      "line": 13,
+      "symbol": "Streams",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/sbeeckmann/Documents/GitHub/swiftSDK"
+}
