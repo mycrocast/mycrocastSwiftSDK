@@ -9,7 +9,7 @@ framework module MycrocastSDK {
         private header "opus_defines.h"
         private header "ogg.h"
         private header "os_types.h"
-        private header "inttypes.h"
+    //    private header "inttypes.h"
     }
 
     export *

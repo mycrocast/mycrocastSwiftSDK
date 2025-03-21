@@ -6,23 +6,19 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		+/yBGYkPx4l2BuEP/jxiUlr1yOc=
+		xzJe6qTYdA4IcvlVTyqlS7o+1c4=
 		</data>
 		<key>Headers/MycrocastSDK-Swift.h</key>
 		<data>
-		T808jKyTqr8/sbeoljkx+BaXUIk=
+		VZegdq5rOWt9g+KJkBBNMwuEJ1I=
 		</data>
 		<key>Headers/MycrocastSDK.h</key>
 		<data>
 		SQ2L7JJ1NDjywgCNIHPKgGoAObs=
 		</data>
-		<key>Headers/inttypes.h</key>
-		<data>
-		Q5DjfbD0SSw/11xgiPn8LT7/MnI=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		iSFOBrdGJSTQo+s4x5l8c1HQ3EA=
+		PNM6zgCf3TY9LnBHGXHkfHXlXJU=
 		</data>
 		<key>Makefile.am</key>
 		<data>
@@ -34,47 +30,51 @@
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gVpXabtNrPmE5+OERYipuaeyJ0E=
+		xMMtQ1NIyIr6wjWlabf3i8JiBRg=
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		1wY47LSUBDz2W+54jlFU+Y9G4vA=
+		u5hIkXZ7wAmR6ch+soj4xivYYaU=
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kduz2GRki3HSmk5/yjfb7Q3OYVk=
+		CJWVebKQnrZ73KjESZoKapTi56w=
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1wY47LSUBDz2W+54jlFU+Y9G4vA=
+		u5hIkXZ7wAmR6ch+soj4xivYYaU=
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FilK+6pQKZh1lHh+ZUWLhI7ZudI=
+		omx5eaRq+IuzuCcn9iekeCBFseo=
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gVpXabtNrPmE5+OERYipuaeyJ0E=
+		xMMtQ1NIyIr6wjWlabf3i8JiBRg=
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		av0GGYp+PXm2qA2O+YWcxvGO++Y=
+		FF+sffuC24xiwZAbeForqb0js+c=
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CKKkdArWO9s++17Zytsrh4COPas=
+		LQ38cGa7GuoHoeaFl7tgZcgoWfU=
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		av0GGYp+PXm2qA2O+YWcxvGO++Y=
+		FF+sffuC24xiwZAbeForqb0js+c=
 		</data>
 		<key>Modules/MycrocastSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		w9Zu3b2+DiVNcV4dePtCC/tOpHg=
+		R3LgxevUBKHztF839OvHuPB2WFs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		9ovmEiAoyo9ckt4VjnuF0kM6dac=
+		lTQZnT2TEcNZ6F6Rn4iHgOVWdx0=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		oRRBgZsJV1uerWpSq6HH+U/jV9Q=
 		</data>
 		<key>PrivateHeaders/config.h</key>
 		<data>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zyYVgTUpatcMekLg7y5lr8gHOD0y0/YHwSJUEmO8qFI=
+			SH0c/Wi1kfXkmJLCIBRJLkBVJBj1B2S5FNDAsRnzXZg=
 			</data>
 		</dict>
 		<key>Headers/MycrocastSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vqVCfbBMpEcNUqAAmGMI1zG4u+gzwQ8HaUvR20dkmAE=
+			HMIRqPoIEay6Ve476JH89mCEzp1CLbz0tQ0kEVdnEIE=
 			</data>
 		</dict>
 		<key>Headers/MycrocastSDK.h</key>
@@ -174,13 +174,6 @@
 			<key>hash2</key>
 			<data>
 			UFfcspCnfAHfW0W2PjMyI2iP33Cn6vXpGvRqVdl4ayI=
-			</data>
-		</dict>
-		<key>Headers/inttypes.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Lj8Fa/LgObLdKWq0ZGUSSFQ6IDvQRjzGyGF1Mrs0YLc=
 			</data>
 		</dict>
 		<key>Makefile.am</key>
@@ -201,77 +194,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mUpwF5xB0oiAsMzsagQN3jlMtyGDKinr8C9teqIW/+o=
+			WGj4x9sSbQDIPw2QW0eUQlw4DUsTbFnnztDjq0O8h3E=
 			</data>
 		</dict>
 		<key>Modules/MycrocastSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k9aCTPrZKXALpg6/7rksnADwGwMH0zC9wgoUJ/8kxLU=
+			cQ87fDVotqOBrA72dbdyOzYNuO8mSsmQixDBztDJLgc=
 			</data>
 		</dict>
 		<key>Modules/MycrocastSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jv3wxoFtgC9uxMe+5iAH6vdZSfWKeqyCmwtYjwPhiMM=
+			eXKuE+QGJD9qXWbWefYk3KC87SpKihrMTqQ/y6BcD5I=
 			</data>
 		</dict>
 		<key>Modules/MycrocastSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k9aCTPrZKXALpg6/7rksnADwGwMH0zC9wgoUJ/8kxLU=
+			cQ87fDVotqOBrA72dbdyOzYNuO8mSsmQixDBztDJLgc=
 			</data>
 		</dict>
 		<key>Modules/MycrocastSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tAOYHNLTrSlkiXNCfcmMrSPDbk1FrQwL8JxqPWXVlPM=
+			B7v4XOpaBElFgYE+wqlmEMNqhHYKP5UfGI6WkGbCSpI=
 			</data>
 		</dict>
 		<key>Modules/MycrocastSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mUpwF5xB0oiAsMzsagQN3jlMtyGDKinr8C9teqIW/+o=
+			WGj4x9sSbQDIPw2QW0eUQlw4DUsTbFnnztDjq0O8h3E=
 			</data>
 		</dict>
 		<key>Modules/MycrocastSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DAArvM8HZM2YiknNX6oT/OlQg/gbdg6YYYo5re4Q4hA=
+			ko1PVepRYMrTt630py2zoruNB9z3DvIWxLq4SSOUXks=
 			</data>
 		</dict>
 		<key>Modules/MycrocastSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4XATzGk/GM8vpGO0IRvCQo0UIiKy2Kina9wttBMoTAw=
+			tybwcSTLPxOPG2FoRNlSC5QQ+JxOxRCHxuihA3LFn2w=
 			</data>
 		</dict>
 		<key>Modules/MycrocastSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DAArvM8HZM2YiknNX6oT/OlQg/gbdg6YYYo5re4Q4hA=
+			ko1PVepRYMrTt630py2zoruNB9z3DvIWxLq4SSOUXks=
 			</data>
 		</dict>
 		<key>Modules/MycrocastSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FGlc2NNlG6iUp0d9zXs6Pt0v5TG6wSobHjwUGGK+rh0=
+			TGnJiyij76GnPXirzZaBEbQ8SjLhp4zleJ9lCSD70o0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ivhe5peXk2e5sUmc/pSlwnGVwlxbWRGKnMmtC2o5Yb4=
+			PAq2FT8F4vsiOa43rcxh0jfblQliFvIIEu1RkaWkG5Q=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OnzwX12igPmAhldhwy7RnWkqrX7m9vM0kyg4LqnBebA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/config.h</key>
