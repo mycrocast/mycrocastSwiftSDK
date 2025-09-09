@@ -10688,6 +10688,27 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Refactor\/AudioStreamProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1263,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Refactor\/AudioStreamProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1280,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Listener\/Refactor\/AudioStreamProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1304,
+      "length": 45,
+      "value": "\"mach_timebase_info failed or returned zeros\""
+    },
+    {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Rest\/Requests\/User\/ClientType.swift",
       "kind": "StringLiteral",
       "offset": 77,
