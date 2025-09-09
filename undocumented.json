@@ -198,7 +198,7 @@
     },
     {
       "file": "/Users/sbeeckmann/Documents/GitHub/swiftSDK/MycrocastSDK/MycrocastSDK/Data/UserStream/UserStream.swift",
-      "line": 80,
+      "line": 140,
       "symbol": "UserStream.createStreamCopy()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
