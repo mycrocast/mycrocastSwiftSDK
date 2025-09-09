@@ -5,6 +5,7 @@
 import AVFAudio
 import AVFoundation
 import MycrocastSDK.CLibgif
+import Darwin
 import DeveloperToolsSupport
 import Foundation
 @_exported import MycrocastSDK
