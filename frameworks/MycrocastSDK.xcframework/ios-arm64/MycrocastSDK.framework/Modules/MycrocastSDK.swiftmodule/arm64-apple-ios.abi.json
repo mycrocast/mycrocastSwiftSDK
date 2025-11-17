@@ -11179,15 +11179,22 @@
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Websocket\/WebsocketClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 207,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Websocket\/WebsocketClient.swift",
       "kind": "StringLiteral",
-      "offset": 245,
+      "offset": 287,
       "length": 10,
       "value": "\"ws.queue\""
     },
     {
       "filePath": "\/Users\/sbeeckmann\/Documents\/GitHub\/swiftSDK\/MycrocastSDK\/MycrocastSDK\/Websocket\/WebsocketClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 3433,
+      "offset": 3622,
       "length": 2,
       "value": "15"
     },
